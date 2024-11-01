@@ -1,0 +1,3025 @@
+/*Admin - Main*/
+#wptu-owner-edit-box{ display:none}
+#wptu-client-new-box{ display:none}
+#wptu-service-editor-box{ display:none}
+#wptu-staff-editor-box{ display:none}
+#wptu-appointment-new-box{ display:none; }
+#wptu-new-app-conf-message{ display:none; }
+#wptu-new-payment-cont{ display:none; }
+#wptu-breaks-new-box{ display:none; }
+#wptu-appointment-list{ display:none; }
+#wptu-appointment-change-status{ display:none; }
+
+#wptu-loading-animation-acc-setting-staff{ display:none; }
+#wptu-loading-animation-acc-resetlink-staff{ display:none; }
+
+
+#wptu-site-add-department-box{ display:none; }
+#wptu-department-edit-department-box{ display:none; }
+
+.wpticketultra-admin .nav-tab.wptu-pro-tab-bubble { 
+    background-color: #E55237;
+    color:white; border:solid 1px #df4a2f  
+
+}
+
+.wpticketultra-admin .nav-tab.wptu-pro-tab-bubble:hover { 
+    background-color: #E55237;
+    color:white;  border:solid 1px #df4a2f 
+
+}
+
+
+span.wptu-main-close-open-tab{ position:absolute; right:5px; top:10px}
+span.wptu-main-close-open-tab a{ font-size:18px; color:#474747}
+span.wptu-main-close-open-tab i{ font-size:18px}
+
+
+
+span.wptu-delete-ticket-conver{ position:absolute; right:5px; top:10px}
+span.wptu-delete-ticket-conver a{ font-size:14px; color: #999}
+
+
+
+span.wptulogoadmin{ position:absolute; right:5px; top:10px}
+
+
+
+.wptu-messaging-hidden{ display:none}
+
+
+
+#bup-loading-animation-business-hours{ display:none; }
+
+.wpticketultra-admin-contain .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+
+/**/
+
+.wptu-ticket-header-quickoptions {
+	position:relative; text-align:right;
+	background:none;
+	height:45px;
+	margin:5px 0px 10px 0px;
+	
+}
+
+.wptu-ticket-header-quickoptions ul{
+	position:relative;
+	text-align:right;
+	padding:5px;
+		
+}
+
+.wptu-ticket-header-quickoptions li{
+	position:relative;
+	display:inline-block;
+	width:auto;
+	padding:5px;
+}
+
+.wptu-ticket-header-quickoptions li i{
+	margin-right:5px;
+	
+}
+
+.wptu-btn-quick-actions-btn{ 
+ border: none;
+ background: #bdbdbd     none repeat scroll 0 0;
+ color: #FFF;
+ font-size:14px;
+ line-height:20px;
+
+ padding:5px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+.wptu-btn-quick-actions-btn:hover{ 
+	background: #999    none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+.wptu-btn-quick-actions-btn{ transition: all 0.1s ease-out 0s;}
+
+
+.wptu-btn-quick-actions-btn.resolve{ 
+
+ background: #b5dcff;
+ 	
+
+}
+
+.wptu-btn-quick-actions-btn.close{ 
+
+ background: #757273;
+ 	
+
+}
+
+a.wptu-btn-top1-menu i{
+
+	margin:0px 0px 0px 5px;
+}
+
+
+
+.wptu-appointments-getting-started {
+
+}
+
+.wptu-common-block {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+  
+    position: relative;
+	height:auto;	
+	
+   
+	width:99%;
+}
+
+.wptu-top-options-book{
+	
+	width:200px;
+	background: none;
+	position:absolute;
+		
+	right:0px;
+	top:5px;
+	text-align:right
+}
+
+
+.wptu-front-cont { 
+
+	padding:10px; 
+	margin:0 auto 0 auto; 
+	position:relative;
+	background: #fbfbfb; 
+	width:100%; 
+	max-width:800px; 
+	border:1px solid #ececec
+}
+
+.wptu-help { font-size:14px; color:#999; text-align:left; padding:5px 0px 5px 0px}
+
+
+
+.wptu-front-cont .bup_errors{ 
+
+
+}
+
+.wptu-front-cont .bup_errors p.bup_error{
+	
+	color: #FF0004;
+
+
+}
+.wptu-front-cont label{ 
+
+	display:inline-block;
+	margin-bottom:5px;
+	color:#666
+
+	
+}
+
+.wptu-ticket-reply-auto-cont{ 
+	position:relative;
+	padding:10px 0px 10px 0px;
+	
+
+}
+
+.wptu-ticket-reply-auto-cont p{
+	font-size:16px;	
+
+}
+
+.wptu-ticket-reply-auto-cont strong{
+	
+	font-weight:bold;
+		
+
+}
+
+
+/*Private Credentials*/
+.wptu-ticket-priv-cred-box{ 
+	clear:both; position:relative;
+
+	border: 1px solid #DBDBDB;
+	margin:2px 0px 2px 0px;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight:normal;
+	padding:5px;
+	color: #333;
+	text-align:left;
+	background:#fcfcfc;
+}
+
+.wptu-ticket-priv-cred-box p{
+	
+	 font-size:14px;
+	 font-weight:normal;
+	 text-transform: none;
+	
+	
+}
+
+.wptu-priv-cred-top-bar {
+	
+	clear:both; position:relative;
+	height:30px;	
+	text-align:right;
+}
+
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box{
+	
+	
+}
+
+.wptu-private-cred-add-form {
+	position:relative;	
+	
+}
+
+.wptu-private-cred-add-form p{ 
+
+	font-size:12px;
+	
+	 	
+	
+}
+
+.wptu-private-cred-add-form input, .wptu-private-cred-add-form select, .wptu-private-cred-add-form textarea {
+  border: solid 1px #F5F5F5; 
+  background: #FCFCFC; color: #333;
+  width:100%;
+	
+}
+
+.wptu-private-cred-add-form input {
+	height:40px;
+
+	
+}
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box ul{
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	
+	
+}
+
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box li{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	margin:5px 0px 5px 10px;
+	padding:5px;
+	width:200px;
+	height:100px;
+	border:solid 1px #ECECEC;
+	background:#fff;
+	/*cursor:pointer;*/
+	
+	
+}
+
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box li:hover{
+	
+	background: #F8F8F8;
+		
+}
+
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box li a{
+	
+	 display:block;
+		
+}
+
+.wptu-ticket-priv-cred-box .wptu-private-credentials-box li a:hover{
+	color: #333;
+	
+	 
+		
+}
+
+
+.wptu-ticket-priv-cred-box .wptu-private-cred-option-li {
+	position:relative;
+	height:20px;	
+	
+}
+
+span.wptu-individ-privatecrede-m{ position:absolute; right:2px; bottom:0px}
+span.wptu-individ-privatecrede-m a{ font-size:12px; color:#474747}
+span.wptu-individ-privatecrede-m i{ font-size:15px}
+
+span.wptu-privcred-top-key{ position:absolute; left:5px; top:0px}
+span.wptu-privcred-top-key i{ font-size:18px}
+
+
+
+
+span.wptu-add-privatecrede-m{ position:absolute; right:5px; top:5px}
+span.wptu-add-privatecrede-m a{ font-size:15px; color:#474747}
+span.wptu-add-privatecrede-m i{ font-size:15px; margin-right:5px;}
+
+
+/*END Private Credentials*/
+
+
+/*Private Notes*/
+
+span.wptu-add-notes-m{ position:absolute; right:5px; top:5px}
+span.wptu-add-notes-m a{ font-size:15px; color:#474747}
+span.wptu-add-notes-m i{ font-size:15px; margin-right:5px;}
+
+.wptu-priv-notes-top-bar {
+	
+	clear:both; position:relative;
+	height:30px;	
+	text-align:right;
+	margin:5px 0px 10px 0px;
+}
+
+
+.wptu-private-cred-add-form {
+	position:relative;	
+	
+}
+
+.wptu-private-cred-add-form p{ 
+
+	font-size:12px;
+	
+	 	
+	
+}
+
+.wptu-private-note-add-form input, .wptu-private-note-add-form select, .wptu-private-note-add-form textarea {
+  border: solid 1px #F5F5F5; 
+  background: #FCFCFC; color: #333;
+  width:100%;
+	
+}
+
+.wptu-private-note-add-form input {
+	height:40px;
+
+	
+}
+
+.wptu-private-note-add-form input[type=checkbox] {
+	width:auto;
+
+	
+}
+
+.wptu-ticket-priv-note-box .wptu-private-note-box ul{
+	text-align: left;
+	padding: 10px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	
+	
+}
+
+.wptu-ticket-priv-note-box .wptu-private-note-box li{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	margin:5px 0px 5px 10px;
+	padding:5px;
+	width:200px;
+	height:100px;
+	border:solid 1px #ECECEC;
+	background:#fbfbfb;
+	/*cursor:pointer;*/
+	
+	
+}
+
+.wptu-ticket-priv-note-box .wptu-private-note-box li:hover{
+	
+	background: #F8F8F8;
+		
+}
+
+.wptu-ticket-priv-note-box .wptu-private-note-box li a{
+	
+	 display:block;
+		
+}
+
+.wptu-ticket-priv-note-box .wptu-private-note-box li a:hover{
+	color: #333;
+	
+	 
+		
+}
+
+
+.wptu-ticket-priv-note-box .wptu-private-note-option-li {
+	position:relative;
+	height:20px;	
+	
+}
+
+/*END Private Notes*/
+
+
+
+.wptu-button-submit-changes{ 
+
+ border: none;
+ background: #666    none repeat scroll 0 0;
+ color: #CCC;
+ font-size:20px;
+ line-height:30px;
+ width:100%;
+ padding:0 3px;
+ height:50px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-submit-changes:hover{ 
+
+	background: #606060  none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+.wptu-button-submit-changes{ transition: all 0.1s ease-out 0s;}
+
+.wptu-front-cont .bup-field-type i.reg_tooltip {
+	float: none;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	margin: 0 14px 0 0;
+	color: #666;
+	
+	
+	border:none !important;
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+.wptu-front-cont .wptu-avatar-drag-drop-sector {
+
+	position:relative;
+
+border: 3px dashed #bbb;
+
+padding:10px 5px 10px 5px;
+
+margin:5px auto 5px auto;
+
+height: auto !important;
+
+width:98%;
+text-align:center;
+
+}
+
+.wptu-front-cont .wptu-avatar-drag-drop-sector p{
+
+text-align:center;
+padding:5px 0px 5px 0px
+
+}
+
+
+
+
+
+.wptu-front-cont  i.wptu-icon-none {
+
+	background: none;
+
+}
+
+.wptu-front-cont .wptu-profile-separator{ clear:both; position:relative;
+
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #333;
+	text-align:left;
+}
+
+.wptu-front-cont input, .wptu-front-cont select,  .wptu-front-cont textarea{font-size: 14px;
+
+	padding-top:6px !important;
+	padding-bottom: 6px !important;
+	padding-left: 6px !important;
+	padding-right:6px !important;
+	color: #444;
+	padding:5px !important;
+	border: 1px solid #ccc !important;
+	background-color:#FFF;
+
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	margin: 0;
+	height:40px; 
+}
+
+
+.wptu-front-cont .wptu-profile-field-cc{ position:relative; height:auto; margin:10px 0px 0px 0px; width:99%; text-align:left}
+.wptu-front-cont .wptu-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px; padding:10px 0px 5px 0px; display:inline-block; width:100%}
+
+.wptu-front-cont .wptu-profile-field-half{ width:50%}
+.wptu-front-cont .wptu-profile-field span{ font-size:14px; color:#666}
+.wptu-front-cont .wptu-field-type{ display:inline-block; width:99%; text-align:left; vertical-align:top}
+.wptu-front-cont .wptu-field-type img{ position:relative !important}
+
+
+/*for custom fields*/
+.wptu-front-cont .wptu-custom-fields{ position:relative; margin:10px 0px 0px 0px }
+
+/*.wptu-front-cont .wptu-field-value{ display:inline-block; width:99%; vertical-align:top; text-align:left; margin:5px 0px 5px 0px}*/
+
+
+.wptu-front-cont .wptu-field-value ul{ position:relative; margin:0px; padding:0px; text-align:left }
+.wptu-front-cont .wptu-field-value ul li{ list-style:none; margin:10px 0px 0px 0px }
+.wptu-front-cont .wptu-field-value ul li input{ width:auto }
+
+span.wptu-add-client-m{ position:absolute; right:5px; top:5px}
+span.wptu-add-client-m a{ font-size:18px; color:#474747}
+span.wptu-add-client-m i{ font-size:18px}
+
+.wptu-front-cont .wptu-field-type i {
+	display:inline-block;
+
+	
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 14px 0 0;	
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+
+
+.wptu-top-options-book a.wptu-btn-top1-book{ 
+
+		
+
+	
+		height:auto !important;
+
+		width:auto;
+
+		padding:15px 10px 10px 10px;
+
+		text-align:left;
+
+		font-size:12px;
+		vertical-align:top;		
+
+		 background: #2A1111 ; 
+
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+
+		 color: #dadada;
+		 text-decoration:none;
+		
+
+
+
+}
+
+.wpticketultra-admin{ position:relative}
+
+.wpticketultra-admin .nav-tab{ background:#FFF}
+.wpticketultra-admin .nav-tab:focus, .wpticketultra-admin .nav-tab:hover { background: #F5F5F5}
+.wpticketultra-admin .nav-tab-active { }
+
+
+
+
+
+
+.wptu-top-options-book a.wptu-btn-top1-book span{ 
+
+		
+
+}
+
+.wptu-top-options-book a.wptu-btn-top1-book span i{
+	margin-right:5px; 
+
+		
+
+}
+
+.wptu-front-cont .wptu-profile-field  .formError .formErrorContent {
+
+	width: 100%;
+
+	background: #ee0101;
+
+	position:relative;
+
+	top:5px;
+
+	color: #fff;
+
+	min-width: 120px;
+
+	font-size: 11px;
+
+	border: 2px solid #ddd;
+
+	box-shadow: 0 0 6px #000;
+
+	-moz-box-shadow: 0 0 6px #000;
+
+	-webkit-box-shadow: 0 0 6px #000;
+
+	-o-box-shadow: 0 0 6px #000;
+
+	padding: 4px 10px 4px 10px;
+
+	border-radius: 6px;
+
+	-moz-border-radius: 6px;
+
+	-webkit-border-radius: 6px;
+
+	-o-border-radius: 6px;
+
+}
+
+.wptu-front-cont .wptu-profile-field .formError {position: absolute;top: 300px;left: 300px;display: block;cursor: pointer;text-align: left;}
+
+
+
+.wptu-front-cont .wptu-profile-field .formError.inline {position: relative;top: 0;left: 0;width:200px;}
+
+.wptu-front-cont .wptu-profile-field .formError.inline .formErrorContent {
+
+	box-shadow: none;
+
+	-moz-box-shadow: none;
+
+	-webkit-box-shadow: none;
+
+	-o-box-shadow: none;
+
+	border: none;
+
+	border-radius: 0;
+
+	-moz-border-radius: 0;
+
+	-webkit-border-radius: 0;
+
+	-o-border-radius: 0;
+
+}
+
+
+
+.wptu-front-cont .wptu-profile-field .greenPopup .formErrorContent {
+
+	background: #33be40;
+
+}
+
+
+
+.wptu-front-cont .wptu-profile-field .blackPopup .formErrorContent {
+
+	background: #393939;
+
+	color: #FFF;
+
+}
+
+
+
+.wptu-front-cont .wptu-profile-field .formError .formErrorArrow {
+
+	width: 15px;
+
+	margin: -2px 0 0 13px;
+
+	position:relative;
+
+}
+
+
+.wptu-welcome-panel h2{ text-align:left; font-size:18px; padding:10px 0px 10px 0px; position:relative; margin:0px
+	
+
+}
+
+.wptu-welcome-panel h2 i{  font-size:20px; margin-right:2px;	
+
+}
+
+.wptu-welcome-panel td i {
+    font-size: 18px;
+	color:#333
+   
+}
+
+/*Custom Fields for Ticket Edit*/
+.wptu-ticket-customo-fields-box .wptu-profile-separator{ clear:both; position:relative;
+
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #333;
+	text-align:left;
+}
+
+.wptu-ticket-customo-fields-box .wptu-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px}
+.wptu-ticket-customo-fields-box .wptu-field-type{ display:inline-block; width:30%; text-align:left; vertical-align:top}
+.wptu-ticket-customo-fields-box .wptu-field-type img{ position:relative !important}
+
+.wptu-ticket-customo-fields-box .wptu-field-value{ display:inline-block; width:66%; vertical-align:top; text-align:left}
+
+.wptu-ticket-customo-fields-box .wptu-profile-field ul{ 
+
+	position:relative;
+	margin:0px
+	
+	
+	
+}
+.wptu-ticket-customo-fields-box .wptu-profile-field li{ 
+	display:inline-block; 
+	position:relative; 
+	padding:0px 10px 0px 0px; 
+	margin:5px 0px 5px 5px;
+	vertical-align:top;
+	
+	list-style:none;
+	
+}
+
+.wptu-ticket-customo-fields-box .wptu-profile-field li label{ 
+	display:inline-block;  
+	vertical-align:top;
+	
+	
+}
+
+.wptu-ticket-customo-fields-box .wptu-profile-field li input[type=radio], .wptu-ticket-customo-fields-box .wptu-profile-field li input[type=checkbox] {
+    margin: 4px 0 0;
+    margin-top: ;
+    line-height: normal;
+    display: inline-block;}
+
+.wptu-ticket-customo-fields-box .wptu-field-type i {
+
+	float: left;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 14px 0 0;	
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+/*END Custom fields*/
+
+.wptu-status-label{ font-weight:500}
+.wptu-priority-label{ font-weight:500}
+
+
+
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images{
+	
+    word-wrap: break-word; 
+	
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images ul{
+	
+	text-align:left;
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images .wptu-reply-img-header{
+	
+	text-align:left;
+	font-size:13px;
+	font-weight:bold;
+	border-bottom: solid 1px #F9F9F9;
+	padding:0px 5px 0px 10px;
+		
+}
+
+span.wptu-del-reply-attach{ margin-right:5px}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images ul li{
+	display:inline-block;
+	width:auto;
+	min-height:2px;
+	margin:5px 5px 0px 5px;
+	border:none;
+	font-size:12px;
+   		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images ul li i{
+	
+	font-size:12px;
+	color: #666;
+   		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-images ul li a{
+	
+	font-size:12px;   		
+}
+
+
+
+/*Update Ticket details Box*/
+.wptu-ticket-update-details { padding:10px 0px 10px 0px; position:relative; text-align:right; border-bottom: solid 1px #F5F5F5}
+.wptu-ticket-update-details a{ font-size:16px; text-decoration:none; color:#333 }
+.wptu-ticket-update-details a:hover{color: #666 }
+
+.wptu-btn-add-new-replies-ticket{ 
+ border: none;
+ background: #999    none repeat scroll 0 0;
+ color: #FFF;
+ font-size:16px;
+ line-height:20px;
+ width:150px;
+ padding:0 3px;
+ height:35px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-btn-add-new-replies-ticket:hover{ 
+	background: #606060  none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #999;
+    text-shadow: none;
+}
+.wptu-btn-add-new-replies-ticket{ transition: all 0.1s ease-out 0s;}
+
+.wptu-btn-update-ticket-details-btn{ 
+ border: none;
+ background: #999     none repeat scroll 0 0;
+ color: #FFF;
+ font-size:14px;
+ line-height:20px;
+ width:110px;
+ padding:0 3px;
+ height:28px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-btn-update-ticket-details-btn:hover{ 
+	background: #999    none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+.wptu-btn-update-ticket-details-btn{ transition: all 0.1s ease-out 0s;}
+
+
+span.wptu-widget-backend-colspan{ position:absolute; right:5px; top:10px}
+span.wptu-widget-backend-colspan a{ font-size:26px; color:#474747}
+span.wptu-widget-backend-colspan i{ font-size:26px}
+
+span.wptu-update-ticket-attributes{ position:absolute; right:10px; top:5px}
+span.wptu-update-ticket-attributes a{ font-size:14px; color: #FFF}
+span.wptu-update-ticket-attributes i{ font-size:14px}
+
+
+
+.wptu-welcome-panel th {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.wptu-welcome-panel table {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 25px;
+  background:transparent;
+}
+
+.wptu-welcome-panel th, .wptu-welcome-panel td {
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wptu-welcome-panel td {
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.wptu-welcome-panel .wptu-main-app-list {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: auto;
+    padding: 15px 10px 5px;
+    position: relative;
+}
+
+
+/*Edit Ticket Details*/
+
+.wptu-btn-submit-ticket{ 
+
+ border: none;
+ background: #666    none repeat scroll 0 0;
+ color: #CCC;
+ font-size:20px;
+ line-height:30px;
+ width:100%;
+ padding:0 3px;
+ height:50px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-btn-submit-ticket:hover{ 
+
+	background: #606060  none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+.wptu-btn-submit-ticket{ transition: all 0.1s ease-out 0s;}
+
+.wptu-ticket-detail-cont {
+	position:relative;
+	
+}
+
+.wptu-ticket-detail-cont .wptu-ticket-header {
+	
+	position:relative;
+	
+	
+	
+}
+
+.wptu-ticket-header-options {
+	position:relative; text-align:left;
+	background: #F8F8F8
+	
+}
+
+.wptu-ticket-header-options ul{
+	position:relative;
+	text-align:right;
+	
+}
+
+.wptu-ticket-header-options li{
+	position:relative;
+	display:inline-block;
+	width:40px;
+}
+
+a.wptu-btn-top1-menu i{
+
+	margin:0px 0px 0px 5px;
+}
+
+
+
+a.wptu-btn-top1-menu{ 
+
+		display:inline-block; 
+
+		min-height:30px;
+		height:auto !important;
+		width:97%;
+		padding-top:5px;
+		padding-left:5px;
+		text-align:left;
+		font-size:12px;
+		vertical-align:top;		
+		 
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+		 color: #333 !important;
+		 text-decoration:none;
+}
+
+
+
+a.wptu-btn-top1-menu:hover{ 
+		
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+		 color: #666 !important;
+}
+
+
+
+a.wptu-btn-top1-menu:active{ 
+		border:solid 1px #000;
+		 
+		-moz-border-radius: 5px; 
+	     border-radius:5px;
+		 color: #FFF;
+
+}
+
+.wptu-noti-bubble-top {
+
+    position:absolute;
+
+    top: -1px;
+
+    right:-2px;
+
+    padding:2px ;
+
+    background-color: #C30;
+
+    color:white;
+
+	line-height:15px;
+
+    font-weight:bold;
+
+    font-size:0.7em;
+
+	width:20px;
+
+	height:20px;
+	text-align:center;
+   	border-radius: 14px;
+
+	-moz-border-radius:14px;
+
+}
+
+
+.wptu-noti-bubble-top-edit-ticket {
+
+    position:absolute;
+
+    top: -1px;
+
+    right:-2px;
+
+    padding:2px ;
+
+    background-color: #C30;
+
+    color:white;
+
+	line-height:15px;
+
+    font-weight:bold;
+
+    font-size:0.7em;
+
+	width:15px;
+
+	height:15px;
+	text-align:center;
+   	border-radius: 14px;
+
+	-moz-border-radius:14px;
+
+}
+
+
+
+.wptu-ticket-detail-cont .wptu-ticket-header h2 {
+	
+	color: #3c3e43;
+	font-size: 30px;
+	padding: 0px 0 0px 0px;
+	font-weight: 300;
+	line-height: 36px;
+	
+}
+
+.wptu-ticket-detail-cont .ticket-general-info  {
+	
+	position:relative;
+	padding:10px 0px 10px 0px;
+	
+}
+
+.ticket-general-info span.wptu-ticket-last-update  {
+	font-weight:bold;
+	
+	
+	
+}
+
+/*File Uploader*/
+.wptu-files-uploader-cont{ display:none}
+.wptu-ticket-open-close-uploader { padding:10px 0px 10px 0px; position:relative}
+.wptu-ticket-open-close-uploader a{ font-size:16px; text-decoration:none; color:#333 }
+.wptu-ticket-open-close-uploader a:hover{color: #666 }
+
+/*Reply Box*/
+.wptu-ticket-reply-cont{ display:none}
+.wptu-ticket-open-close-replies { padding:10px 0px 10px 0px; position:relative}
+.wptu-ticket-open-close-replies a{ font-size:16px; text-decoration:none; color:#333 }
+.wptu-ticket-open-close-replies a:hover{color: #666 }
+
+.wptu-btn-add-new-replies-ticket{ 
+
+ border: none;
+ background: #606060    none repeat scroll 0 0;
+ color: #CCC;
+ font-size:16px;
+ line-height:20px;
+ width:150px;
+ padding:0 3px;
+ height:35px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-btn-add-new-replies-ticket:hover{ 
+
+	background: #606060  none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #999;
+    text-shadow: none;
+}
+
+.wptu-btn-add-new-replies-ticket{ transition: all 0.1s ease-out 0s;}
+
+.wptu-ticket-detail-cont .ticket-general-info span.wptu-ticket-client-info  {
+	position:absolute;
+	right:5px;
+		
+}
+
+
+.wptu-ticket-detail-cont .wptu-ticket-header h2 span.wptu-ticket-number{
+	position:absolute;
+	right:5px;
+	font-size:20px
+	
+}
+
+.wptu-ticket-sla-details  {
+	
+	position:relative;
+	padding: 0px 0px 10px 0px ;
+	
+}
+
+.wptu-ticket-sla-details strong  { 
+
+	font-weight:600;	
+	
+}
+
+.wptu-overdue-green {
+	
+	color: #6C0	
+}
+
+.wptu-overdue-red {
+	
+	color: #F00;	
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont {
+	position:relative;
+	width:99%;
+		
+}
+
+.wptu-ticket-detail-cont .wptu-add-reply-cont {
+	position:relative;
+		
+}
+
+.wptu-ticket-detail-cont .wptu-add-reply-cont .wptu-add-reply-header {
+	position:relative;
+	margin:10px 0px 5px 0px;
+	padding:10px 0px 0px 0px
+		
+}
+
+.wptu-ticket-detail-cont .wptu-add-reply-cont .wptu-add-reply-header h3 {
+		
+}
+
+.wptu-reply-txt-box{ width:100%; height:200px; border:1px solid #cfd4d6}
+
+.wptu-button-upload-avatar{}
+.wptu-button-upload-avatar span{ margin:0px 5px 0px 5px}
+.wptu-button-upload-avatar span i{ font-size:16px}
+
+
+
+.wptu-ticket-detail-cont .wptu-replies-cont ul {
+	text-align:center;
+	margin:0px;
+	padding:10px 0px 10px 0px;
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont li {
+	
+	width:100%;
+	margin:5px 0px 0px 0px;
+	padding:0px;
+	border:solid 1px #F3F3F3;
+	list-style:none;
+	min-height:200px;
+	height:auto;
+	display:table;
+			
+}
+
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col1 {
+	display: table-cell;
+	width:20%;
+	vertical-align:top;
+	background:#F8F8F8;
+	height:100%;
+	position:relative;
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col1 .wptu-reply-staff-info {
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col1 .wptu-reply-staff-info h2{
+	font-size:21px;
+	padding:5px 0px 5px 5px;
+	color:#3c3e43;
+	font-weight:300;
+	
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col1 .wptu-reply-staff-info .wptu-avatar{
+	
+	padding:5px 0px 5px 5px;
+	position:relative;
+	margin:0px 0px 0px 0px;
+	text-align:left;	
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col1 .wptu-reply-staff-info .wptu-u-type{
+	
+	padding:5px 0px 5px 5px;
+	position:relative;
+	margin:0px 0px 0px 0px;
+	text-align:left;
+	color:#999;
+	font-size:12px;	
+	
+}
+
+
+
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2{
+	text-align:left;
+	display: table-cell;
+	width:80%;
+	vertical-align:top;
+	padding:0px 0px 10px 0px;
+	background:#FFF;
+	position:relative;
+	
+		
+}
+
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-details{
+	text-align:left;
+	/*width:100%;*/
+	height:35px;
+	border-bottom:solid 1px #FBFBFB;
+	background:none;
+	padding:5px 5px 0px 10px;
+	color:#999;
+	font-size: 14px;
+	
+	
+		
+}
+
+.wptu-ticket-detail-cont .wptu-replies-cont .wptu-reply-col2 .wptu-reply-text{
+	text-align:left;
+	padding:10px 5px 15px 10px;
+	margin:5px 0px 0px 0px;
+	
+	display:inline-table;
+	
+	font-size: 15px;
+    color: #3c3e43;  
+    cursor: text;
+    line-height: 1.5;
+    word-wrap: break-word;
+		
+}
+
+
+.wptu-ticket-detail-cont .wptu-ticket-geninfo-cont { 
+
+    background: rgb(255, 255, 255);
+    padding: 0px;
+	border:none;
+	color:#FFF;
+	
+    
+	
+}
+
+.wptu-ticket-detail-cont .wptu-general-info-title {
+	
+	text-align:left;
+	font-size: 11px;
+	color: #fff;
+	color: rgba(255, 255, 255, .75);  
+	
+}
+
+.wptu-ticket-detail-cont .wptu-general-info-value {
+	
+	text-align:left;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1em;  
+	
+}
+
+
+
+.wptu-ticket-detail-cont .wptu-ticket-geninfo-cont ul {
+	text-align:center;
+	margin:0px; 
+	padding:0px
+	 
+	
+}
+
+.wptu-ticket-detail-cont .wptu-ticket-geninfo-cont li {
+	display:inline-block;
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	list-style:none;
+	width: 19%;
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+	height: 65px;
+	vertical-align: top;
+	position:relative;
+	 
+	
+}
+
+
+/*END edit Ticket Detail*/
+
+/**/
+.wptu-button-submit{ 
+
+ 
+ border: none;
+ background: #999 none repeat scroll 0 0;
+ color:#fff;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-submit:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.wptu-button-submit{ transition: all 0.1s ease-out 0s;}
+
+/**/
+.wptu-button-change-avatar{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ width:100px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-change-avatar:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #000;
+    text-shadow: none;
+}
+
+.wptu-button-change-avatar{ transition: all 0.1s ease-out 0s;}
+/**/
+
+.wptu-button-delete-avatar{ 
+
+ border: none;
+ background: #F00 repeat scroll 0 0;
+ color: #FFF;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-delete-avatar:hover{ 
+
+	background: #C40000 none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.wptu-button-delete-avatar{ transition: all 0.1s ease-out 0s;}
+
+.wptu-button-upload-avatar{ 
+
+ border: none;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ width:140px;
+ padding:0 3px;
+ height:30px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+ margin: 10px auto 10px auto;
+
+}
+
+.wptu-button-upload-avatar:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #000;
+    text-shadow: none;
+}
+
+.wptu-button-upload-avatar{ transition: all 0.1s ease-out 0s;}
+
+.wptu-button-submit-filter{ 
+
+ border: 1px solid  #8A8A8A;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:30px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-submit-filter:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.wptu-button-submit-filter{ transition: all 0.1s ease-out 0s;}
+
+
+.wptu-button-submit-changes{ 
+
+ border: 1px solid  #8A8A8A;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-button-submit-changes:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.wptu-button-submit-changes{ transition: all 0.1s ease-out 0s;}
+/**/
+
+.wptu-button-submit-breaks{ 
+
+ border: 1px solid  #8A8A8A;
+ background: #ddd none repeat scroll 0 0;
+ color:#000;
+ font-size:12px;
+ line-height:22px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ margin:0px 5px 0px 5px
+
+}
+
+.wptu-button-submit-breaks:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #000;
+    height: auto;
+    text-shadow: none;
+}
+
+.wptu-button-submit-breaks{ transition: all 0.1s ease-out 0s;}
+
+ul.wptu-time-slots-available-list .wptu-button{ 
+
+ 
+ border: none;
+ background: #E55237 none repeat scroll 0 0;
+ color:#fff;
+ font-size:12px;
+ line-height:32px;
+ padding:0 10px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;
+ text-align:center;
+ 
+
+}
+
+ul.wptu-time-slots-available-list .wptu-button:hover{ 
+
+	background: #ddd none repeat scroll 0 0;
+    border: none;
+    box-shadow: none;
+    color: #5A5354 ;
+    height: auto;
+    text-shadow: none;
+}
+
+ul.wptu-time-slots-available-list .wptu-button{ transition: all 0.1s ease-out 0s;}
+
+
+ul.wptu-time-slots-available-list .wptu-button-blocked{ 
+
+ border: 1px solid #ddd;
+ background: #ddd none repeat scroll 0 0;
+ color: #aaa !important;
+ font-size:12px;
+ line-height:32px;
+ padding:0 12px;
+ height:auto;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor: default;
+ 
+}
+
+.wptu-div-for-avatar-upload{
+	text-align:left;
+	margin:5px auto 5px auto;
+}
+
+.wptu-div-for-avatar-upload span{
+	
+	margin:0px 5px 0px 0px;
+}
+
+.wptu-adm-schedule-info-bar {
+    background: #F6F6F6 !important;
+   
+
+}
+
+
+.wptu-adm-bar-opt-edit {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+    padding: 5px 10px 5px;
+    position: relative;
+	height:auto;	
+	margin-left: 13px;
+    max-width: 1000px;
+	/*width:700px;*/
+}
+
+.wptu-adm-bar-opt-edit p{ margin:0px;
+}
+
+/*Create New Appointment*/
+
+.wptu-adm-new-appointment {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 5px 0;
+    overflow: auto;
+    padding: 5px 10px 5px;
+    position: relative;
+	height:auto;	
+	margin-left: 13px;
+    max-width: 1000px;
+	/*width:700px;*/
+}
+
+.wptu-adm-new-appointment h3{
+    margin:5px 0px 5px 0px
+}
+
+.wptu-adm-check-av-button{
+	
+	width:100%;
+	clear:both;
+	text-align:right;
+	padding:5px 0px 5px 0px;	
+	    
+}
+
+.wptu-adm-check-av-button-d{
+	
+	width:100%;
+	clear:both;
+	text-align:right;
+	padding:5px 0px 5px 0px;
+	margin:10px 0px 5px 0px;	
+	    
+}
+
+
+
+.wptu-adm-new-appointment .wptu-adm-frm-blocks{
+	
+	width:30%;
+	display:inline-block;	
+	padding:5px;
+	margin-bottom:5px;
+	vertical-align:top;
+	    
+}
+
+
+.wptu-adm-new-appointment  input[type="text"],  .wptu-adm-new-appointment select{	
+	width: 100%;
+	height:40px; 
+	    
+}
+
+
+.wptu-adm-new-appointment .field-header{	
+	width:99%;
+	clear:both;
+	float:none;
+	font-size:14px;
+	font-weight:bold;    
+}
+
+.wptu-adm-extrainfo-box {
+    
+    position: relative;
+	height:200px;
+	overflow-x:hidden;
+	padding-right:5px;
+	
+	width:99%;
+}
+
+.wptu-adm-bookinginfo-box {
+    
+    position: relative;
+	max-height:200px;
+	overflow-x:hidden;
+	padding-right:5px;
+	margin-bottom:10px;
+	
+	width:99%;
+}
+
+.wptu-adm-bookingnotes-box {
+    
+    position: relative;
+	max-height:380px;
+	overflow-x:hidden;
+	padding-right:5px;
+	margin-bottom:10px;
+	
+	width:99%;
+}
+
+.wptu-adm-availa-box {
+    
+    position: relative;
+	height:200px;
+	overflow-x:hidden;
+	
+	width:100%;
+}
+
+/*End New Appointment*/
+
+/*Custom Fields for Bookng Edit*/
+.wptu-adm-new-appointment .wptu-profile-separator{ clear:both; position:relative;
+
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #333;
+	text-align:left;
+}
+
+.wptu-adm-new-appointment .wptu-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px}
+.wptu-adm-new-appointment .wptu-field-type{ display:inline-block; width:30%; text-align:left; vertical-align:top}
+.wptu-adm-new-appointment .wptu-field-type img{ position:relative !important}
+
+.wptu-adm-new-appointment .wptu-field-value{ display:inline-block; width:66%; vertical-align:top; text-align:left}
+
+.wptu-adm-new-appointment .wptu-field-type i {
+
+	float: left;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 14px 0 0;	
+	text-align: center;
+	position: relative;
+	top: auto;
+}
+
+.wptu-input-text-area {
+	height:200px !important;
+	width:98%;
+	
+}
+
+
+.wptu-tickets-module-filters {
+	
+	width:99%;
+	position:relative;	
+	padding:5px;
+	margin:10px 0px 10px 0px;
+	vertical-align:top;
+	text-align:center;
+		border:1px solid #e5e5e5;
+	    
+}
+
+.wptu-tickets-module-filters  input[type="text"],  .wptu-tickets-module-filters select{	
+	
+	height:33px;
+	margin:0 5px 0 5px;
+	padding:0px;
+	width:auto;
+
+
+	
+	    
+}
+
+.wptu-notification   { width:70%; clear:both; display:none}
+#wptu-add-new-custom-field-frm   { display:none }
+.wptu-deleted   { background:#FCC}
+
+.wptu-ultra-info, .wptu-ultra-success, .wptu-ultra-warning, .wptu-ultra-error, .isa_error {
+    border: 1px solid;
+    margin: 10px 0px 0px 5px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+border-radius:.5em;
+
+}
+.wptu-ultra-info {
+    color: #00529B;
+    background-color: #BDE5F8;
+   
+}
+.wptu-ultra-success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+   
+}
+
+.wptu-ultra-success i{
+	font-size:16px;
+	margin:0px 5px 0px 0px
+   
+}
+.wptu-ultra-warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+   
+}
+.wptu-ultra-error {
+    color: #D8000C;
+    background-color: #FFBABA;
+   
+}
+
+/*Ends*/
+
+
+/*Admin Availability options*/
+
+.wptu-adm-availa-box .wptu-time-slots-divisor{ position:relative; height:auto !important; margin:0px ; padding:0px}
+.wptu-adm-availa-box .wptu-nav-search-options-bar { position:relative; height:auto !important; margin:10px 0px 5px 0px ; padding:5px; text-align:right}
+
+.wptu-adm-availa-box .wptu-selected-staff-booking-info{ position:relative; height:auto !important; margin:5px 0px 10px 0px ; padding:2px; }
+.wptu-adm-availa-box .wptu-selected-staff-booking-info p{ font-size:14px }
+.wptu-adm-availa-box .wptu-selected-staff-booking-info strong{ font-weight:bold }
+
+ul.wptu-time-slots-available-list{position:relative; height:auto !important; margin:0px ; padding:0px}
+.wptu-adm-availa-box h3{ font-size:20px; margin:10px 0px 10px 0px; text-align:center}
+ul.wptu-time-slots-available-list li{ border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #888;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.8; 
+	list-style:none;
+	height:110px;
+	display:inline-block;
+	width:19%;
+	vertical-align:top;
+	border: 1px solid  #F3F3F3;
+	margin:5px 2px 5px 2px
+	
+	}
+	
+ul.wptu-time-slots-available-list li{ transition: all 0.1s ease-out 0s;}	
+ul.wptu-time-slots-available-list li:hover{  background: #f9f9f9 none repeat scroll 0 0;}	
+
+ul.wptu-time-slots-available-list li div.wptu-timeslot-time{ 
+	box-sizing: border-box;	
+	padding: 2px;
+	margin: 0px;
+	color: #555;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+	float:none;
+	clear:both;
+	text-align:center;
+	
+	
+
+}
+
+ul.wptu-time-slots-available-list li div.wptu-timeslot-count{ 
+	box-sizing: border-box; 	
+	width:100%;
+	text-align:center;
+	margin:0px;
+	
+}
+
+ul.wptu-time-slots-available-list li div.wptu-timeslot-count span.spots-available{ 
+
+	font-size:12px;
+	text-align:center;
+	
+	
+}
+
+ul.wptu-time-slots-available-list li span.wptu-timeslot-people{ 
+	box-sizing: border-box; 
+	
+	width:100%;
+	padding: 0px;
+	display:inline-block;
+	text-align:center;
+	
+
+}
+
+ul.wptu-time-slots-available-list li span.wptu-button-text{
+	
+	font-size:12px;
+	line-height:32px;
+	/*color:#FFF;*/
+	width:100%;
+		
+
+}
+    
+	
+/**/
+/*End Admin Availability*/
+
+
+.wptu-welcome-panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: hidden;
+    padding: 15px 10px 5px;
+    position: relative !important;
+}
+
+.wptu-welcome-panel h3 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+}
+.wptu-welcome-panel h4 {
+    font-size: 16px;
+    margin: 1.33em 0 0;
+}
+.wptu-welcome-panel li {
+    font-size: 14px;
+}
+
+
+.wptu-welcome-panel-content {
+    margin-left: 13px;
+    max-width: 1500px;
+}
+.wptu-welcome-panel .welcome-panel-column-container {
+    clear: both;
+    position: relative;
+}
+.wptu-welcome-panel .welcome-panel-column {
+    float: none;
+    min-width: 200px;
+    width: 33%;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+
+
+.wptu-welcome-panel .welcome-panel-column-pro {
+    float: none;
+    min-width: 200px;
+    width: 32%;
+	display:inline-block;
+	vertical-align:top;
+	margin:10px 0px 5px 10px;
+	
+}
+
+.wptu-welcome-panel .welcome-panel-column-pro img {
+	
+	max-width:100%;
+   	
+}
+
+.wptu-welcome-panel .welcome-panel-column-pro p {
+	font-size:14px;	
+   	
+}
+
+.wptu-welcome-panel .welcome-panel-column-pro h4 {
+	
+	margin-top:1.2em;
+	
+	
+   	
+}
+
+
+
+
+
+.wptu-adm-bookinginfo-box .wptu-financial-list {   
+  
+    width: 100%;
+	overflow-x:hidden;
+	height:130px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+
+.wptu-adm-bookinginfo-box .wptu-financial-list ul {   
+  
+    width: 100%;
+	position:relative;
+	text-align:center;
+	
+	
+}
+
+.wptu-adm-bookinginfo-box .wptu-financial-list ul li{   
+  
+    width: 29%;
+	position: relative;
+	display:inline-block;
+	height:60px;
+	border:none;
+	background: #F0F0F0;
+	border:solid 1px #F0F0F0;
+	padding:2px 2px 15px 2px;
+	margin:5px 2px 0px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	vertical-align:top;
+}
+
+
+.wptu-adm-bookinginfo-box  td.bupending{
+	color:#F00
+}
+
+
+
+.wptu-nav-pro-features { border-bottom:solid 1px #CCCCCC  }
+.wptu-multi-tab-options { margin-top:30px;  }
+.wptu-nav-pro-features li.wptu-pro-li{ height:20px !important; padding-top:5px; font-size:14px; margin:0px 5px 0px 5px}
+.wptu-nav-pro-features li.wptu-pro-li a{ text-decoration:none !important; color:#333; font-size:14px; display:block; height:100%; }
+
+
+
+
+
+.wptu-sect { padding:2px 5px 2px 5px; margin-top:10px; position:relative; background:#FFF}
+.wptu-sect .wptu-header { margin:5px; padding-top:5px; padding-left:5px; border-bottom: solid 1px #F8F8F8}
+.wptu-sect .wptu-header h3{ font-size:20px}
+
+.user-ultra-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+
+/*services module*/
+
+.wptu-user-avatar-default-style{border-radius:50%}
+
+.wptu-sect .wptu-staff { width:99%; padding:2px; position:relative}
+.wptu-sect .wptu-staff .wptu-staff-left{ display:inline-block; width:30%; padding:2px; position:relative; background:#F4F4F4; min-height:400px; vertical-align:top}
+.wptu-sect .wptu-staff .wptu-staff-right{display:inline-block; width:68%;padding:2px; position:relative;  min-height:400px ; vertical-align:top}
+
+.wptu-sect .wptu-staff .wptu-staff-right-avatar{ width:98%;padding:2px; max-width:700px; position:relative;  min-height:400px ; margin:10px auto 10px auto; text-align:center }
+
+.wptu-sect .wptu-staff .wptu-staff-right-avatar h3{ font-size:18px }
+
+.wptu-sect .wptu-staff .wptu-dialog-user-bg-cropper{margin:0px auto 0px auto }
+
+
+.wptu-avatar-drag-drop-sector {
+
+	position:relative;
+
+border: 3px dashed #bbb;
+
+padding:5px;
+
+margin:5px auto 5px auto;
+
+height: auto !important;
+
+width:98%
+
+}
+
+.wptu-sect span.wptu-add-appo{ position:absolute; right:5px; top:10px}
+
+.wptu-sect span.wptu-add-appo a{ font-size:18px; color:#474747}
+.wptu-sect span.wptu-add-appo i{ font-size:18px}
+
+.wptu-sect .pr_tipb_be{ clear:both; float:none; width:99%; max-height:700px; min-height:99px; margin-top:10px; margin-bottom:10px; padding-bottom:15px;  border:solid 1px #E9E9E9; display:inline-block }
+
+
+.wptu-sect .wptu-staff .wptu-staff-left ul{}
+.wptu-sect .wptu-staff .wptu-staff-left ul li{ height:80px;  padding:5px}
+.wptu-sect .wptu-staff .wptu-staff-left ul li:hover{ background:#E9E9E9}
+.wptu-sect .wptu-staff .wptu-staff-left ul li img{ vertical-align:central; float:left; margin-right:15px}
+.wptu-sect .wptu-staff .wptu-staff-left ul li a{ display:block; text-decoration:none; height:100%}
+
+.wptu-sect .wptu-staff .wptu-staff-left .wptu-staff-list-act{ position:relative}
+.wptu-sect .wptu-staff .wptu-staff-left .wptu-staff-list-act span.wptu-add-staff{ position:absolute; right:5px; top:10px}
+
+.wptu-sect .wptu-staff .wptu-staff-left .wptu-staff-list-act span.wptu-add-staff a{ font-size:18px; color:#474747}
+.wptu-sect .wptu-staff .wptu-staff-left .wptu-staff-list-act span.wptu-add-staff i{ font-size:18px}
+
+
+/*Change Owner*/
+
+
+
+.wptu-ticket-action-details{ padding:10px 0px 10px 0px; position:relative}
+
+.wptu-ticket-action-details-choices{ padding:10px 0px 10px 0px; position:relative}
+.wptu-ticket-action-details-choices ul{}
+.wptu-ticket-action-details-choices li{ margin:5px 0px 0px 0px}
+
+.wptu-staff-list-change-owner{ position:relative}
+.wptu-staff-list-change-owner .wptu-change-owner-actions{  position:relative; padding:5px; display:none; border:solid 1px #F8F8F8}
+.wptu-staff-list-change-owner .wptu-change-owner-actions p{ font-size:14px}
+
+.wptu-staff-list-change-owner .wptu-change-owner-actions i.red{ color:#F00}
+
+.wptu-staff-list-change-owner h1{ font-size:16px}
+
+.wptu-staff-list-change-owner ul{}
+.wptu-staff-list-change-owner ul li{   padding:0px; margin:5px 0px 0px 0px; position:relative}
+.wptu-staff-list-change-owner ul li:hover{ background: #F8F8F8}
+.wptu-staff-list-change-owner ul li img{ vertical-align:central; float:left; margin-right:15px}
+.wptu-staff-list-change-owner ul li a{ display:block; text-decoration:none; min-height:80px}
+
+.wptu-staff-list-change-owner .avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+.wptu-confirm-ownerchange-btn{ 
+ border: none;
+ background: #999     none repeat scroll 0 0;
+ color: #FFF;
+ font-size:14px;
+ line-height:20px;
+ width:110px;
+ padding:0 3px;
+ height:28px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-confirm-ownerchange-btn:hover{ 
+	background: #999    none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+.wptu-confirm-ownerchange-btn{ transition: all 0.1s ease-out 0s;}
+
+
+.wptu-confirm-prioritydel-btn{ 
+ border: none;
+ background: #999     none repeat scroll 0 0;
+ color: #FFF;
+ font-size:14px;
+ line-height:20px;
+ width:110px;
+ padding:0 3px;
+ height:28px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-confirm-prioritydel-btn:hover{ 
+	background: #999    none repeat scroll 0 0;
+    border:none;
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+.wptu-confirm-prioritydel-btn{ transition: all 0.1s ease-out 0s;}
+
+.wptu-pro-only{ font-size:12px; color:#F00}
+
+
+.wptu-welcome-panel .wptu-main-app-summary {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    line-height: 2.1em;
+    margin: 14px 0;
+    overflow: auto;
+    padding: 0px 5px 0px 5px;
+    position: relative;
+}
+
+#wptu_ticket_reply_message_ifr{ height:200px !important}
+
+
+
+.wptu-main-ticket-summary { text-align:center }
+.wptu-main-ticket-summary ul{ padding:5px; background:#FBFBFB; margin:10px 0px 10px 0px }
+.wptu-main-ticket-summary ul li{ display:inline-block; height:90px; margin: 0px 0px 0px 5px; background:#FFFFFF; border: solid 1px #F8F8F8; vertical-align:top; width:19% }
+
+.wptu-main-ticket-summary ul li a{ display:block; width:100%; height:100%; text-decoration:none }
+
+.wptu-main-ticket-summary ul li p{ font-size:40px; margin:0px; line-height:40px;font-weight:600; text-align:center }
+.wptu-main-ticket-summary ul li small{ font-size:11px; color:#999 }
+
+/* ends owner*/
+
+/*priority module*/
+
+.wptu-sect .wptu-priori{ padding:2px; position:relative}
+
+.wptu-sect .wptu-customse .wptu-service-header-bar{ position:relative; margin:0px 0px 10px 0px}
+.wptu-sect .wptu-customse{ padding:2px; position:relative}
+.wptu-sect .wptu-customse .wptu-priorities{ margin-right:5px; position:relative; vertical-align:top; padding:5px}
+
+
+/* ends priority*/
+
+/*services module*/
+
+
+.wptu-sect .wptu-services .wptu-service-header-bar{ margin:0px 0px 10px 0px}
+.wptu-sect .wptu-services{ padding:2px; position:relative}
+
+.wptu-sect .wptu-services{ padding:2px; position:relative}
+.wptu-sect .wptu-services .wptu-categories{ display:inline-block; width:40%; margin-right:5px; position:relative; vertical-align:top; padding:5px}
+.wptu-sect .wptu-services .wptu-services{ display:inline-block; width:55%; vertical-align:top}
+
+/**/
+
+span.wptu-add-priority-m{ position:absolute; right:5px; top:5px}
+span.wptu-add-priority-m a{ font-size:18px; color:#474747}
+span.wptu-add-priority-m i{ font-size:18px}
+
+.wptu-sect .wptu-services span.wptu-add-service-m{ position:absolute; right:5px; top:5px}
+.wptu-sect .wptu-services span.wptu-add-service-m a{ font-size:18px; color:#474747}
+.wptu-sect .wptu-services span.wptu-add-service-m i{ font-size:18px}
+
+.wptu-adm-new-appointment span.wptu-add-client-m{ position:absolute; right:5px; top:5px}
+.wptu-adm-new-appointment span.wptu-add-client-m a{ font-size:18px; color:#474747}
+.wptu-adm-new-appointment span.wptu-add-client-m i{ font-size:18px}
+
+
+
+/**/
+
+.wptu-sect .wptu-services .wptu-categories span.wptu-add-department{ position:absolute; right:5px; top:5px}
+.wptu-sect .wptu-services .wptu-categories span.wptu-action-department{ position:absolute; right:5px; top:5px}
+
+.wptu-sect .wptu-services .wptu-categories span.wptu-add-department a{ font-size:18px; color:#474747}
+.wptu-sect .wptu-services .wptu-categories span.wptu-add-department i{ font-size:18px}
+
+.wptu-sect .wptu-services .wptu-categories span.wptu-action-department a{ font-size:14px; color: #484848}
+.wptu-sect .wptu-services .wptu-categories span.wptu-action-department i{ font-size:14px}
+
+.wptu-sect .wptu-services .wptu-categories .wptu-sites-actions{ position:relative}
+.wptu-sect .wptu-services .wptu-categories .wptu-sites-actions p{ position:relative; color: #999}
+
+.wptu-sect .wptu-services .wptu-categories ul{ }
+.wptu-sect .wptu-services .wptu-categories li{ position:relative; margin-bottom:5px; border-bottom:solid 1px #F0F0F0; padding:5px }
+
+.wptu-sect .wptu-services .wptu-categories a{ text-decoration:none; font-size:15px}
+
+
+.wptu-sect-adm-edit { vertical-align:top}
+
+.wptu-sect .service-color-blet{ width:15px; height:15px}
+
+
+.wptu-sect-adm-edit span.wptu-action-staff{ position:absolute; right:5px; top:5px; z-index:999}
+.wptu-sect-adm-edit span.wptu-action-staff a{ font-size:20px; color:#474747; cursor:pointer}
+.wptu-sect-adm-edit span.wptu-action-staff i{ font-size:28px}
+
+
+/*widgets edit*/
+
+ul.wptu-details-staff-sections{ margin-top:0px}
+
+.wptu-sect-adm-edit li.left_widget_customizer_li{ display:inline-block; vertical-align:top; border:#EFEFEF solid 1px; width:100%; height:auto !important; margin-left:0px; margin-top:0px;margin-bottom:5px; padding-bottom:10px;padding-top:0px; -moz-border-radius: 5px; border-radius:5px; }
+
+.wptu-sect-adm-edit .wptu-staff-details-header {
+
+    width:100%; 
+    cursor:pointer;
+    min-height:50px;
+    clear:both;
+    background-color:  #F4F4F4;
+    position:relative;
+	margin-top:0px;
+}
+
+.wptu-sect-adm-edit .wptu-staff-details-header h3{
+  
+	margin-top:0px;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+span.wptu-widgets-icon-close-open {
+
+    width:20px;
+    height:20px;
+    position:absolute;
+    background-image:url(../images/icon-close-open.png);
+    right:5px;
+	top:2px;
+
+}
+
+
+
+/*breaks edit*/
+
+span.wptu-breaks-add {
+
+    width:80px;
+	 cursor:pointer;
+    height:20px;
+    position:absolute;    
+    right:10px;
+	top:10px;
+
+}
+
+span.wptu-breaks-remove{ position:absolute; right:2px; top:0px}
+
+
+
+.wptu-sect-adm-edit .wptu-add-new-break{ padding-top:5px; padding-bottom:5px; margin-bottom:5px; display:none}
+
+.wptu-sect-adm-edit .wptu-staff-break{ vertical-align:top; width:90%; margin:10px auto 0 auto; text-align:center}
+
+.wptu-sect-adm-edit .wptu-clock-remove{ margin-right:4px }
+
+
+
+.wptu-sect-adm-edit .wptu-staff-break .wptu-breaks-details { }
+.wptu-sect-adm-edit .wptu-staff-break .wptu-breaks-details ul{ position:relative }
+.wptu-sect-adm-edit .wptu-staff-break .wptu-breaks-details li{ width:100%; width:200px; position:relative; margin:0px auto 5px auto; border:solid 1px #F7F7F7 }
+
+.wptu-sect-adm-edit .wptu-staff-break .wptu-add-break-cont{ vertical-align:top; width:100%; max-width:400px; margin:10px auto 0 auto; background: #FBFBFB; border:solid 1px #F5F5F5; padding-top:5px; padding-bottom:5px}
+
+
+.wptu-sect-adm-edit .wptu-staff-break li.left_widget_customizer_li{ display:inline-block; vertical-align:top; border:#EFEFEF solid 1px; width:100%; height:auto !important; margin-left:0px; margin-top:5px;margin-bottom:5px; padding-bottom:5px;padding-top:0px; 5 }
+
+.wptu-sect-adm-edit .wptu-staff-break .wptu-break-details-header {
+
+    width:100%; 
+   
+    min-height:50px;
+    clear:both;
+    position:relative;
+	margin-top:0px;
+}
+
+.wptu-sect-adm-edit .wptu-staff-break .wptu-break-details-header h3{
+  
+	margin-top:0px;
+	padding-top:5px;
+	padding-left:5px;
+	font-size:14px;
+	text-align:left;
+}
+
+/*service edit*/
+.wptu-sect-adm-edit .wptu-edit-service-block{ vertical-align:top}
+.wptu-sect-adm-edit .wptu-field-separator { margin:5px 0px 5px 0px}
+.wptu-sect-adm-edit .wptu-field-separator label{ width:200px; display: inline-block}
+
+.wp-picker-container, .wp-picker-container:active{ position:absolute; display:inline}
+
+
+
+.wptu-sect-adm-edit .wptu-serv-category-title{ margin:20px 0px 15px 0px}
+
+
+.wptu-sect-adm-edit .wptu-tabs-sections-staff-services{ margin-top:15px; padding-left:5px; padding-bottom:10px;}
+.wptu-sect-adm-edit .wptu-services-list-adm{ }
+.wptu-sect-adm-edit .wptu-services-list-adm ul{ margin:10px 0px 5px 0px; padding-left:20px}
+.wptu-sect-adm-edit .wptu-services-list-adm ul li{ padding-left:10px; margin:15px 0px 0px 0px}
+
+.wptu-sect-adm-edit .wptu-services-list-adm ul li .wptu-services-left{ display:inline-block; width:55%; padding-bottom:10px; border-bottom:solid 1px #F3F3F3; vertical-align:top; height:30px}
+.wptu-sect-adm-edit .wptu-services-list-adm ul li .wptu-services-right{ display:inline-block;  padding-bottom:10px;  border-bottom:solid 1px #F3F3F3; vertical-align:top;  height:30px}
+.wptu-sect-adm-edit input[type="text"] {}
+.wptu-sect-adm-edit .wptu-price-box { width:80px}
+
+
+/*details box styles*/
+.wptu-sect-adm-edit .wptu-staff-details{ position:relative; margin-top:15px; padding-left:5px; padding-bottom:10px;}
+.wptu-sect-adm-edit .wptu-staff-details .wptu-profile-field{ clear:both; position:relative; height:auto; margin:10px 0px 0px 0px}
+.wptu-sect-adm-edit .wptu-staff-details .wptu-field-type{ display:inline-block; width:20%; text-align:left; vertical-align:top}
+
+.wptu-sect-adm-edit .wptu-staff-details .wptu-field-value{ display:inline-block; width:66%; vertical-align:top; text-align:left}
+
+
+/*check box styles*/
+
+
+
+span.uultra-user-editions-icon-close-open {
+
+    width:20px;
+    height:20px;
+    position:absolute;
+    background-image:url(../images/icon-close-open.png);
+    right:5px;
+	top:2px;
+
+}
+
+
+/*USERS DASBHOARD CHECKBOXES*/
+
+
+/* Base for label styling */
+.wptu-sect-adm-edit [type="checkbox"]:not(:checked),
+.wptu-sect-adm-edit [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.wptu-sect-adm-edit  [type="checkbox"]:not(:checked) + label,
+.wptu-sect-adm-edit [type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.wptu-sect-adm-edit [type="checkbox"]:not(:checked) + label:before,
+.wptu-sect-adm-edit [type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; 
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 1px solid  #EAEAEA;
+  background: #f8f8f8;
+  border-radius: 5px;
+ 
+}
+
+/* checked mark aspect */
+.wptu-sect-adm-edit [type="checkbox"]:not(:checked) + label:after,
+.wptu-sect-adm-edit [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0; 
+  left: 4px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+/* checked mark aspect changes */
+.wptu-sect-adm-edit [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.wptu-sect-adm-edit [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.wptu-sect-adm-edit [type="checkbox"]:disabled:not(:checked) + label:before,
+.wptu-sect-adm-edit [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #EAEAEA;
+  background-color: #ddd;
+}
+.wptu-sect-adm-edit [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+
+.wptu-sect-adm-edit [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+
+/* accessibility */
+.wptu-sect-adm-edit [type="checkbox"]:checked:focus + label:before,
+.wptu-sect-adm-edit [type="checkbox"]:not(:checked):focus + label:before {
+  border:none;
+}
+
+/*-------------radio styles*/
+
+
+/* Base for label styling */
+.wptu-sect-adm-edit [type="radio"]:not(:checked),
+.wptu-sect-adm-edit [type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+.wptu-sect-adm-edit  [type="radio"]:not(:checked) + label,
+.wptu-sect-adm-edit [type="radio"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+.wptu-sect-adm-edit [type="radio"]:not(:checked) + label:before,
+.wptu-sect-adm-edit [type="radio"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; 
+  top: 0px;
+  width: 17px; height: 17px;
+  border: 1px solid #EAEAEA;
+  background: #f8f8f8;
+  border-radius: 50%;
+ 
+}
+
+/* checked mark aspect */
+.wptu-sect-adm-edit [type="radio"]:not(:checked) + label:after,
+.wptu-sect-adm-edit [type="radio"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0; 
+  left: 4px;
+  font-size: 14px;
+  color: #09ad7e;
+  transition: all .2s;
+}
+
+/* checked mark aspect changes */
+.wptu-sect-adm-edit [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.wptu-sect-adm-edit [type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+.wptu-sect-adm-edit [type="radio"]:disabled:not(:checked) + label:before,
+.wptu-sect-adm-edit [type="radio"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #EAEAEA;
+  background-color: #ddd;
+}
+.wptu-sect-adm-edit [type="radio"]:disabled:checked + label:after {
+  color: #999;
+}
+
+.wptu-sect-adm-edit [type="radio"]:disabled + label {
+  color: #aaa;
+}
+
+/* accessibility */
+.wptu-sect-adm-edit [type="radio"]:checked:focus + label:before,
+.wptu-sect-adm-edit [type="radio"]:not(:checked):focus + label:before {
+  border: 1px solid #EAEAEA;
+}
+
+
+/*-------------END radio styles*/
+
+
+
+
+.table-generic tr:nth-child(even) {
+background: #F2F2F2;
+}
+
+
+/*Customizer Styles*/
+
+.wptu-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; /* half width of the spinner gif */
+    margin-top: -50px; /* half height of the spinner gif */
+    text-align:center;
+    z-index:1234;
+    overflow: auto;
+    width: 190px; /* width of the spinner gif */
+    height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */
+	background-color:rgba(240,240,240,0.7);
+	-moz-border-radius:.5em;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	font-size:14px;
+	padding-top:30px;
+}
+
+
+.wptu-ultra-rounded {
+    border-radius: 5px;
+}
+.wptu-ultra-sect {
+    background: #fff none repeat scroll 0 0;
+    clear: both;
+    height: auto !important;
+    margin-top: 20px;
+    padding: 20px 10px 10px;
+    position: relative;
+    width: 98%;
+}
+
+.wptu-profile-fields-row {
+    border: 1px solid #efefef;
+    border-radius: 0.5em;
+    clear: both;
+    height: auto !important;
+    margin: 10px 0;
+    min-height: 60px;
+    padding: 0;
+    position: relative;
+    width: 600px;
+}
+.wptu-profile-fields-row .heading_title {
+    border-bottom: 1px solid #efefef;
+    clear: both;
+    height: 30px;
+    margin: 0;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.wptu-profile-fields-row .options-bar {
+    clear: both;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 170px;
+}
+.wptu-profile-fields-row .options-bar p {
+    margin: 8px 5px 0;
+}
+.wptu-profile-fields-row .heading_title h3 {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+.wptu-profile-fields-row .heading_title.separator {
+    background: #eee none repeat scroll 0 0;
+}
+.wptu-profile-fields-row.profile-field {
+    margin-left: 30px;
+    width: 450px;
+}
+.wptu-profile-fields-row .wptu-fields-edition {
+    display: none;
+    margin: 10px auto;
+    width: 85%;
+}
+#uu-fields-sortable .ui-selected {
+    background: red none repeat scroll 0 0;
+    color: white;
+    font-weight: bold;
+}
+#uu-fields-sortable {
+    cursor: move;
+}
+
+
+.wptu-sect .fc-event{
+	border-radius:0px;
+	border:none;
+	
+   
+}
+
+i.mce_bup_shortcodes_button{background-image:url(../images/small_logo_16x16.png)!important;background-repeat:no-repeat!important;background-position:center!important}
+
+.wptu-button-upgrade{ 
+
+
+ background: #5D5656 none repeat scroll 0 0;
+ border:none;
+ color: #FFF;
+ font-size:16px;
+ line-height:20px;
+ padding:0 12px;
+ height:50px;
+ width:190px;
+ text-transform:uppercase;
+ text-decoration:none;
+ cursor:pointer;	
+
+}
+
+.wptu-welcome-panel .wptu-button-upgrade:hover{ 
+
+	background: #333   none repeat scroll 0 0;
+	border:none;
+   
+    box-shadow: none;
+    color: #CCC;
+    text-shadow: none;
+}
+
+.wptu-welcome-panel h1{ font-size:29px; color:#999}
+
+.wptu-welcome-panel .wptu-button-upgrade-pro{ transition: all 0.1s ease-out 0s;}
+
+.wptu-welcome-panel .wptu-button-upgrade{position:absolute; top:180px; right:30px;}
+
+h3.wptu-extended{ font-size:40px;}
+h3.wptu-welcome{ font-size:28px;}
+p.wptu-extended-p{ font-size:16px;}
+
+/*
+ul.ui-autocomplete {
+	background: none repeat scroll 0 0 #DADADA;
+	cursor: pointer;
+	display: block;
+	list-style-type: none;
+	max-width: 200px;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+}
+
+ul.ui-autocomplete li.ui-menu-item {
+	padding:3px 5px;
+}
+
+ul.ui-autocomplete li.ui-menu-item:hover, 
+ul.ui-autocomplete li.ui-state-hover:hover{
+	background:#666;
+}*/
+/* ------------------------------------------------------------------------- *
+
+ *  Responsive Style
+
+/* ------------------------------------------------------------------------- */
+
+/************************************************************************************
+
+MEDIA QUERIES
+
+*************************************************************************************/
+
+
+
+/* Large screens */
+
+@media only screen and (min-width : 1680px) {
+
+
+
+}
+
+
+
+/* Tablet Landscape */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+
+}
+
+
+
+
+
+
+
+/* for 980px or less */
+
+@media screen and (max-width: 1000px) {
+	
+
+}
+
+
+/* Smaller than 960px */
+
+/*@media only screen and (max-width: 959px) {
+
+}*/
+
+
+
+/* MAX 800px */
+
+
+
+@media only screen and (max-width: 1000px) {
+	
+	.wptu-user-dahsboard-cont .wptu-top-header .wptu-top-options ul li .wptu-user-menu-text{ display:none}
+	.bp_table_row_hide{ display:none}	
+	.wptu-user-dahsboard-cont .wptu-top-header .wptu-top-options ul li i{ font-size:25px}
+	
+	#wptu-stats-on-hold{ display:none}
+	#wptu-stats-shared{ display:none}	
+	.wptu-main-ticket-summary ul li { width:23%}
+	.wptu-main-ticket-summary ul li.wptuclientd{width:30%  }
+	
+	
+	/* tickets list*/
+	#wptu-ticket-col-staff { display:none}
+	#wptu-ticket-col-department { display:none}
+	
+	
+}
+
+
+
+/* for 750px or less */
+
+@media only screen and (max-width: 750px) {
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	
+	
+	.wptu-main-ticket-summary ul li { width:22%}
+	#wptu-ticket-col-lastupdate { display:none}
+	
+	
+
+
+}
+
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
+
+@media only screen and (max-width: 580px) {
+	
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	
+	
+	.wptu-staff-profile-name { display:none}
+	#wptu-ticket-col-status { display:none}
+	#wptu-ticket-col-site { display:none}
+	
+
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	
+
+
+
+}
+
+
+
+/* MAX 1440px */
+
+
+
+@media only screen and (max-width: 1440px){
+
+
+
+
+}
+
+
+
+
+
+/* MAX 1024px */
+
+
+
+@media only screen and (max-width: 1024px){
+
+
+
+}
+
+
+/* MAX 360px */
+
+
+
+@media only screen and (max-width: 320px){
+
+
+		
+
+}
+

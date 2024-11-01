@@ -1,0 +1,3774 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Ticket Ultra Core\n"
+"POT-Creation-Date: 2017-12-15 20:47-0300\n"
+"PO-Revision-Date: 2017-12-15 20:47-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPathExcluded-1: upload_protect\n"
+
+#: addons/profiles/admin/admin.php:43
+msgid "Staff Profile"
+msgstr "Staff Profile"
+
+#: addons/profiles/admin/admin.php:83
+msgid "Staff Directory"
+msgstr ""
+
+#: addons/profiles/admin/admin.php:131 addons/profiles/admin/admin.php:156
+msgid "Staff & Client Account"
+msgstr ""
+
+#: addons/profiles/admin/admin.php:209 classes/wptu.admin.php:1904
+msgid "Rewrite Rules were Saved."
+msgstr ""
+
+#: addons/profiles/admin/admin.php:218
+msgid "STAFF & CLIENT ACCOUNT SETTINGS"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:12
+msgid "Ticket Ultra Pro Staff Profile Pages"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:14
+msgid "Here you can set your custom pages for the staff profiles."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:24
+msgid "Registration Page"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:26
+msgid ""
+"Make sure you have the <code>[wptu_user_signup]</code> shortcode on this "
+"page."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:27
+msgid "This page is where users will be able to sign up to your website."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:34
+msgid "My Account Page"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:36
+msgid ""
+"Make sure you have the <code>[wptu_account]</code> shortcode on this page."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:37
+msgid ""
+"This page is where users and staff members will be able to manage their "
+"appointments."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:43
+msgid "Users Login Page"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:45
+msgid ""
+"Make sure you have the <code>[wptu_user_login]</code> shortcode on this page."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:46
+msgid ""
+"This page is where users and staff members & clients will be able to recover "
+"to login to their accounts."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:53
+msgid "Password Recover Page"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:55
+msgid ""
+"Make sure you have the <code>[wptu_user_recover_password]</code> shortcode "
+"on this page."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:56
+msgid ""
+"This page is where users and staff members will be able to recover their "
+"passwords."
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:64
+msgid "Hide WP Admin Tool Bar?"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:66
+#: addons/profiles/admin/panels/manage.php:79 admin/tabs/mail.php:189
+#: admin/tabs/mail.php:202 admin/tabs/settings.php:164
+#: admin/tabs/settings.php:177 admin/tabs/settings.php:189
+#: admin/tabs/settings.php:453 admin/tabs/settings.php:475
+#: admin/tabs/settings.php:534 admin/tabs/settings.php:547
+#: admin/tabs/settings.php:561 classes/wptu.priority.php:467
+#: classes/wptu.user.php:897
+msgid "NO"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:67
+#: addons/profiles/admin/panels/manage.php:78 admin/tabs/mail.php:188
+#: admin/tabs/mail.php:201 admin/tabs/settings.php:163
+#: admin/tabs/settings.php:176 admin/tabs/settings.php:190
+#: admin/tabs/settings.php:452 admin/tabs/settings.php:474
+#: admin/tabs/settings.php:533 admin/tabs/settings.php:546
+#: admin/tabs/settings.php:560 classes/wptu.priority.php:466
+#: classes/wptu.user.php:896
+msgid "YES"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:69
+#: addons/profiles/admin/panels/manage.php:70
+msgid "If checked, User will not see the WP Admin Tool Bar"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:76
+msgid "Hide Product Column On User Account?"
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:81
+#: addons/profiles/admin/panels/manage.php:82
+msgid ""
+"If YES is selected, the client will not see the Product Column in the "
+"tickets list. This is useful if you're offering support for just one "
+"product. However, if you're offering support for multiple product this colum "
+"will help clients to organize their requests "
+msgstr ""
+
+#: addons/profiles/admin/panels/manage.php:97 admin/tabs/mail.php:796
+#: admin/tabs/settings.php:136 admin/tabs/settings.php:423
+#: admin/tabs/settings.php:509 admin/tabs/settings.php:623
+#: admin/tabs/settings.php:664 admin/tabs/settings.php:751
+#: admin/tabs/settings.php:820 classes/wptu.user.php:1549
+#: classes/wptu.user.php:1639
+msgid "Save Changes"
+msgstr ""
+
+#: admin/tabs/createticket.php:64 classes/wptu.admin.php:1925
+#: templates/dashboard.php:1026
+msgid "Submit A Ticket"
+msgstr ""
+
+#: admin/tabs/createticket.php:87 templates/dashboard.php:1039
+msgid "Error!"
+msgstr ""
+
+#: admin/tabs/createticket.php:89 templates/dashboard.php:1041
+msgid "You've set an invalid site"
+msgstr ""
+
+#: admin/tabs/createticket.php:98 classes/wptu.class.php:1795
+#: templates/dashboard.php:1050
+msgid "Select a Product"
+msgstr ""
+
+#: admin/tabs/createticket.php:115 templates/create_ticket.php:61
+msgid "Create New Client"
+msgstr ""
+
+#: admin/tabs/departments.php:37 classes/wptu.admin.php:200
+msgid "Add Department"
+msgstr ""
+
+#: admin/tabs/departments.php:38 classes/wptu.admin.php:199
+msgid "Edit Department"
+msgstr ""
+
+#: admin/tabs/departments.php:41 classes/wptu.admin.php:213
+msgid "Add Product"
+msgstr ""
+
+#: admin/tabs/departments.php:43
+msgid "Delete Department"
+msgstr ""
+
+#: admin/tabs/departments.php:45 classes/wptu.admin.php:212
+msgid "Edit Product"
+msgstr ""
+
+#: admin/tabs/departments.php:46
+msgid "Delete Product"
+msgstr ""
+
+#: admin/tabs/departments.php:51 admin/tabs/priority.php:35
+msgid "Please input a name."
+msgstr ""
+
+#: admin/tabs/departments.php:57 admin/tabs/fields.php:216
+#: admin/tabs/licence.php:31 admin/tabs/priority.php:40
+#: admin/tabs/ticketedit.php:380 admin/tabs/users.php:107
+#: admin/tabs/users.php:117 classes/wptu.admin.php:227
+#: classes/wptu.class.php:1023 classes/wptu.profile.php:56
+#: classes/wptu.profile.php:64 classes/wptu.user.php:961
+#: classes/wptu.user.php:968 templates/dashboard.php:1959
+#: templates/edit_ticket.php:377
+msgid "Please wait ..."
+msgstr ""
+
+#: admin/tabs/fields.php:19
+msgid "Custom Fields Customizer"
+msgstr ""
+
+#: admin/tabs/fields.php:22
+msgid ""
+"This section allow you to set different fields to each of your Products and "
+"Departments. For example, for the sales department you can ask for sale "
+"number and for the support department you can ask for a serial number, "
+"website etc etc."
+msgstr ""
+
+#: admin/tabs/fields.php:27
+msgid "Click here to add new field"
+msgstr ""
+
+#: admin/tabs/fields.php:37
+msgid "Department:"
+msgstr ""
+
+#: admin/tabs/fields.php:50
+msgid "Type"
+msgstr ""
+
+#: admin/tabs/fields.php:54
+msgid "Field"
+msgstr ""
+
+#: admin/tabs/fields.php:57 classes/wptu.admin.php:1047
+msgid "Separator"
+msgstr ""
+
+#: admin/tabs/fields.php:60
+msgid "You can create a separator or a field"
+msgstr ""
+
+#: admin/tabs/fields.php:65
+msgid "Editor / Input Type"
+msgstr ""
+
+#: admin/tabs/fields.php:74 classes/wptu.admin.php:1068
+msgid ""
+"When user edit profile, this field can be an input (text, textarea, image "
+"upload, etc.)"
+msgstr ""
+
+#: admin/tabs/fields.php:79
+msgid "New Custom Meta Key"
+msgstr ""
+
+#: admin/tabs/fields.php:84 classes/wptu.admin.php:1078
+msgid ""
+"Enter a custom meta key for this profile field if do not want to use a "
+"predefined meta field above. It is recommended to only use alphanumeric "
+"characters and underscores, for example my_custom_meta is a proper meta key."
+msgstr ""
+
+#: admin/tabs/fields.php:90
+msgid "Label"
+msgstr ""
+
+#: admin/tabs/fields.php:96 classes/wptu.admin.php:1089
+msgid ""
+"Enter the label / name of this field as you want it to appear in front-end "
+"(Profile edit/view)"
+msgstr ""
+
+#: admin/tabs/fields.php:101 classes/wptu.admin.php:1098
+msgid "Tooltip Text"
+msgstr ""
+
+#: admin/tabs/fields.php:107 classes/wptu.admin.php:1103
+msgid "A tooltip text can be useful for social buttons on profile header."
+msgstr ""
+
+#: admin/tabs/fields.php:113 classes/wptu.admin.php:1108
+msgid "Help Text"
+msgstr ""
+
+#: admin/tabs/fields.php:116 classes/wptu.admin.php:1110
+msgid "A help text can be useful for provide information about the field."
+msgstr ""
+
+#: admin/tabs/fields.php:118 classes/wptu.admin.php:1112
+msgid "Show this help text under the profile field."
+msgstr ""
+
+#: admin/tabs/fields.php:126 classes/wptu.admin.php:1125
+msgid "User can edit"
+msgstr ""
+
+#: admin/tabs/fields.php:130 admin/tabs/fields.php:152
+#: admin/tabs/fields.php:167 admin/tabs/settings.php:353
+#: admin/tabs/settings.php:366 classes/wptu.admin.php:1129
+#: classes/wptu.admin.php:1156 classes/wptu.admin.php:1193
+msgid "Yes"
+msgstr ""
+
+#: admin/tabs/fields.php:133 admin/tabs/fields.php:149
+#: admin/tabs/fields.php:164 admin/tabs/settings.php:352
+#: admin/tabs/settings.php:365 admin/tabs/settings.php:650
+#: classes/wptu.admin.php:1132 classes/wptu.admin.php:1153
+#: classes/wptu.admin.php:1190
+msgid "No"
+msgstr ""
+
+#: admin/tabs/fields.php:136 classes/wptu.admin.php:1135
+msgid "Users can edit this profile field or not."
+msgstr ""
+
+#: admin/tabs/fields.php:145
+msgid "This field is required"
+msgstr ""
+
+#: admin/tabs/fields.php:155 classes/wptu.admin.php:1159
+msgid ""
+"Selecting yes will force user to provide a value for this field at "
+"registration and edit profile. Registration or profile edits will not be "
+"accepted if this field is left empty."
+msgstr ""
+
+#: admin/tabs/fields.php:160
+msgid "Show on Registration form"
+msgstr ""
+
+#: admin/tabs/fields.php:170
+msgid ""
+"Show this field on the registration form? If you choose no, this field will "
+"be shown on edit profile only and not on the registration form. Most users "
+"prefer fewer fields when registering, so use this option with care."
+msgstr ""
+
+#: admin/tabs/fields.php:186 admin/tabs/orders.php:17
+#: classes/wptu.admin.php:1266
+msgid "Success "
+msgstr ""
+
+#: admin/tabs/fields.php:187
+msgid "Submit New Field"
+msgstr ""
+
+#: admin/tabs/fields.php:189 classes/wptu.admin.php:1272
+#: classes/wptu.profile.php:327 classes/wptu.profile.php:729
+#: classes/wptu.user.php:2245 classes/wptu.user.php:2659
+msgid "Cancel"
+msgstr ""
+
+#: admin/tabs/fields.php:206
+msgid "Are you totally sure that you want to delete this field?"
+msgstr ""
+
+#: admin/tabs/fields.php:208
+msgid "Are you totally sure that you want to restore the default fields?"
+msgstr ""
+
+#: admin/tabs/fields.php:210 classes/wptu.admin.php:201
+#: classes/wptu.admin.php:205 classes/wptu.admin.php:228
+#: classes/wptu.admin.php:230 classes/wptu.profile.php:66
+#: classes/wptu.profile.php:68
+msgid "Please input a name"
+msgstr ""
+
+#: admin/tabs/help.php:9
+msgid " Quick Documentation"
+msgstr ""
+
+#: admin/tabs/help.php:11
+msgid ""
+"Here there are some useful shortocodes and tutorials that will help you to "
+"start with your Help Desk Plugin."
+msgstr ""
+
+#: admin/tabs/help.php:19 admin/tabs/welcome.php:32
+msgid "Getting Started"
+msgstr ""
+
+#: admin/tabs/help.php:23
+msgid "Getting Started With Staff Account"
+msgstr ""
+
+#: admin/tabs/help.php:25
+msgid "Adding or Deleting Staff Members"
+msgstr ""
+
+#: admin/tabs/help.php:27
+msgid "Creating a New Product"
+msgstr ""
+
+#: admin/tabs/help.php:29
+msgid "Creating New Departments"
+msgstr ""
+
+#: admin/tabs/help.php:37 classes/wptu.admin.php:61
+msgid "Tickets"
+msgstr ""
+
+#: admin/tabs/help.php:41
+msgid "How Do Staff Members Create Tickets?"
+msgstr ""
+
+#: admin/tabs/help.php:43
+msgid "How Do Client Create Tickets?"
+msgstr ""
+
+#: admin/tabs/help.php:45
+msgid "How Do Admins Create Tickets?"
+msgstr ""
+
+#: admin/tabs/help.php:56
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/tabs/help.php:60 admin/tabs/settings.php:105
+msgid "Login Form"
+msgstr ""
+
+#: admin/tabs/help.php:62 classes/wptu.admin.php:441
+msgid "Password Reset"
+msgstr ""
+
+#: admin/tabs/help.php:64
+msgid "Client Registration Page"
+msgstr ""
+
+#: admin/tabs/help.php:66
+msgid "Client & Staff Account"
+msgstr ""
+
+#: admin/tabs/licence.php:18
+msgid "Congratulations!"
+msgstr ""
+
+#: admin/tabs/licence.php:19
+msgid ""
+"Your copy has been validated. You should be able to update the plugin "
+"through your WP Update sections. Also, you should start receiving an notice "
+"every time the plugin is updated."
+msgstr ""
+
+#: admin/tabs/licence.php:23
+msgid "Validate your copy"
+msgstr ""
+
+#: admin/tabs/licence.php:24
+msgid ""
+"Please fill out the form below with the serial number generated when you "
+"registered your domain through your account at WPTicketUltra.com"
+msgstr ""
+
+#: admin/tabs/licence.php:26
+msgid "INPUT YOUR SERIAL KEY"
+msgstr ""
+
+#: admin/tabs/licence.php:31
+msgid "CLICK HERE TO VALIDATE YOUR COPY"
+msgstr ""
+
+#: admin/tabs/mail.php:6
+msgid "Advanced Email Options"
+msgstr ""
+
+#: admin/tabs/mail.php:13
+msgid ""
+"Here you can control how WP Ticket Ultra will send the notification to your "
+"users."
+msgstr ""
+
+#: admin/tabs/mail.php:24
+msgid "Send From Name"
+msgstr ""
+
+#: admin/tabs/mail.php:25 admin/tabs/mail.php:26
+msgid "Enter the your name or company name here."
+msgstr ""
+
+#: admin/tabs/mail.php:32
+msgid "Send From Email"
+msgstr ""
+
+#: admin/tabs/mail.php:33 admin/tabs/mail.php:34
+msgid "Enter the email address to be used when sending emails."
+msgstr ""
+
+#: admin/tabs/mail.php:40
+msgid "Mailer:"
+msgstr ""
+
+#: admin/tabs/mail.php:42
+msgid "Use the PHP mail() function to send emails"
+msgstr ""
+
+#: admin/tabs/mail.php:43
+msgid "Send all emails via SMTP"
+msgstr ""
+
+#: admin/tabs/mail.php:44
+msgid "Send all emails via Mandrill"
+msgstr ""
+
+#: admin/tabs/mail.php:45
+msgid "Send all emails via Third-party plugin"
+msgstr ""
+
+#: admin/tabs/mail.php:49 admin/tabs/mail.php:50
+msgid "Specify which mailer method the pluigin should use when sending emails."
+msgstr ""
+
+#: admin/tabs/mail.php:56
+msgid "Return Path"
+msgstr ""
+
+#: admin/tabs/mail.php:58 admin/tabs/mail.php:59
+msgid "Set the return-path to match the From Email"
+msgstr ""
+
+#: admin/tabs/mail.php:71
+msgid "SMTP Settings"
+msgstr ""
+
+#: admin/tabs/mail.php:72
+msgid ""
+"This options should be set only if you have chosen to send email via SMTP"
+msgstr ""
+
+#: admin/tabs/mail.php:79
+msgid "SMTP Host:"
+msgstr ""
+
+#: admin/tabs/mail.php:80 admin/tabs/mail.php:81
+msgid "Specify host name or ip address."
+msgstr ""
+
+#: admin/tabs/mail.php:87
+msgid "SMTP Port:"
+msgstr ""
+
+#: admin/tabs/mail.php:88 admin/tabs/mail.php:89
+msgid "Specify Port."
+msgstr ""
+
+#: admin/tabs/mail.php:96
+msgid "Encryption:"
+msgstr ""
+
+#: admin/tabs/mail.php:98
+msgid "No encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:99
+msgid "Use SSL encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:100
+msgid "Use TLS encryption"
+msgstr ""
+
+#: admin/tabs/mail.php:104 admin/tabs/mail.php:105
+msgid "Specify the encryption method."
+msgstr ""
+
+#: admin/tabs/mail.php:111
+msgid "Authentication:"
+msgstr ""
+
+#: admin/tabs/mail.php:113
+msgid "No. Do not use SMTP authentication"
+msgstr ""
+
+#: admin/tabs/mail.php:114
+msgid "Yes. Use SMTP Authentication"
+msgstr ""
+
+#: admin/tabs/mail.php:118 admin/tabs/mail.php:119 admin/tabs/settings.php:590
+#: admin/tabs/settings.php:591 admin/tabs/settings.php:606
+#: admin/tabs/settings.php:607
+msgid "Specify the authentication method."
+msgstr ""
+
+#: admin/tabs/mail.php:125
+msgid "Username:"
+msgstr ""
+
+#: admin/tabs/mail.php:126 admin/tabs/mail.php:127
+msgid "Specify Username."
+msgstr ""
+
+#: admin/tabs/mail.php:133
+msgid "Password:"
+msgstr ""
+
+#: admin/tabs/mail.php:134 admin/tabs/mail.php:135
+msgid "Input Password."
+msgstr ""
+
+#: admin/tabs/mail.php:154
+msgid ""
+"This options should be set only if you have chosen to send email via Mandrill"
+msgstr ""
+
+#: admin/tabs/mail.php:160
+msgid "Mandrill API Key:"
+msgstr ""
+
+#: admin/tabs/mail.php:161
+msgid ""
+"Specify Mandrill API. Find out more info here: https://mandrillapp.com/api/"
+"docs/"
+msgstr ""
+
+#: admin/tabs/mail.php:162
+msgid "Specify Mandrill API."
+msgstr ""
+
+#: admin/tabs/mail.php:176
+msgid "Email Subject Structure"
+msgstr ""
+
+#: admin/tabs/mail.php:177
+msgid ""
+"These settings allow you to set a custom structure for the subject of the "
+"ticket email."
+msgstr ""
+
+#: admin/tabs/mail.php:186
+msgid "Include Ticket's Subject ?:"
+msgstr ""
+
+#: admin/tabs/mail.php:192 admin/tabs/mail.php:193
+msgid ""
+"If YES, the subject submited by the client will be included in the "
+"notification email."
+msgstr ""
+
+#: admin/tabs/mail.php:199
+msgid "Include Ticket's Number?:"
+msgstr ""
+
+#: admin/tabs/mail.php:205 admin/tabs/mail.php:206
+msgid "If YES, the number of the ticket will be included in the email."
+msgstr ""
+
+#: admin/tabs/mail.php:218
+msgid "Admin Message New Ticket"
+msgstr ""
+
+#: admin/tabs/mail.php:218 admin/tabs/mail.php:260 admin/tabs/mail.php:304
+#: admin/tabs/mail.php:350 admin/tabs/mail.php:394 admin/tabs/mail.php:441
+#: admin/tabs/mail.php:486 admin/tabs/mail.php:532 admin/tabs/mail.php:577
+#: admin/tabs/mail.php:622 admin/tabs/mail.php:667 admin/tabs/mail.php:711
+#: admin/tabs/mail.php:753 admin/tabs/main.php:41 admin/tabs/main.php:96
+#: admin/tabs/main.php:203 admin/tabs/main.php:306
+#: admin/tabs/ticketedit.php:221 templates/dashboard.php:187
+#: templates/dashboard.php:261 templates/dashboard.php:327
+#: templates/dashboard.php:451 templates/dashboard.php:582
+#: templates/dashboard.php:732 templates/dashboard.php:856
+#: templates/edit_ticket.php:183 templates/edit_ticket.php:209
+#: templates/edit_ticket.php:235
+msgid "Close"
+msgstr ""
+
+#: admin/tabs/mail.php:220
+msgid ""
+"This is the welcome email that is sent to the admin when a new ticket is "
+"created."
+msgstr ""
+
+#: admin/tabs/mail.php:231 admin/tabs/mail.php:275 admin/tabs/mail.php:319
+#: admin/tabs/mail.php:363 admin/tabs/mail.php:407 admin/tabs/mail.php:454
+#: admin/tabs/mail.php:499 admin/tabs/mail.php:545 admin/tabs/mail.php:590
+#: admin/tabs/mail.php:635 admin/tabs/mail.php:680 admin/tabs/mail.php:724
+#: admin/tabs/mail.php:766
+msgid "Subject:"
+msgstr ""
+
+#: admin/tabs/mail.php:232 admin/tabs/mail.php:233 admin/tabs/mail.php:276
+#: admin/tabs/mail.php:277 admin/tabs/mail.php:320 admin/tabs/mail.php:321
+#: admin/tabs/mail.php:364 admin/tabs/mail.php:365 admin/tabs/mail.php:408
+#: admin/tabs/mail.php:409 admin/tabs/mail.php:455 admin/tabs/mail.php:456
+#: admin/tabs/mail.php:500 admin/tabs/mail.php:501 admin/tabs/mail.php:546
+#: admin/tabs/mail.php:547 admin/tabs/mail.php:591 admin/tabs/mail.php:592
+#: admin/tabs/mail.php:636 admin/tabs/mail.php:637 admin/tabs/mail.php:681
+#: admin/tabs/mail.php:682 admin/tabs/mail.php:725 admin/tabs/mail.php:726
+#: admin/tabs/mail.php:767 admin/tabs/mail.php:768
+msgid "Set Email Subject."
+msgstr ""
+
+#: admin/tabs/mail.php:239 admin/tabs/mail.php:283 admin/tabs/mail.php:327
+#: admin/tabs/mail.php:371 admin/tabs/mail.php:415 admin/tabs/mail.php:462
+#: admin/tabs/mail.php:507 admin/tabs/mail.php:553 admin/tabs/mail.php:598
+#: admin/tabs/mail.php:643 admin/tabs/mail.php:688 admin/tabs/mail.php:732
+#: admin/tabs/mail.php:774
+msgid "Message"
+msgstr ""
+
+#: admin/tabs/mail.php:240 admin/tabs/mail.php:241 admin/tabs/mail.php:284
+#: admin/tabs/mail.php:285 admin/tabs/mail.php:328 admin/tabs/mail.php:329
+#: admin/tabs/mail.php:372 admin/tabs/mail.php:373 admin/tabs/mail.php:416
+#: admin/tabs/mail.php:417 admin/tabs/mail.php:463 admin/tabs/mail.php:464
+#: admin/tabs/mail.php:508 admin/tabs/mail.php:509 admin/tabs/mail.php:554
+#: admin/tabs/mail.php:555 admin/tabs/mail.php:599 admin/tabs/mail.php:600
+#: admin/tabs/mail.php:644 admin/tabs/mail.php:645 admin/tabs/mail.php:689
+#: admin/tabs/mail.php:690 admin/tabs/mail.php:733 admin/tabs/mail.php:734
+#: admin/tabs/mail.php:775 admin/tabs/mail.php:776
+msgid "Set Email Message here."
+msgstr ""
+
+#: admin/tabs/mail.php:250 admin/tabs/mail.php:294 admin/tabs/mail.php:340
+#: admin/tabs/mail.php:384 admin/tabs/mail.php:428 admin/tabs/mail.php:472
+#: admin/tabs/mail.php:517 admin/tabs/mail.php:563 admin/tabs/mail.php:608
+#: admin/tabs/mail.php:653 admin/tabs/mail.php:698 admin/tabs/mail.php:742
+#: admin/tabs/mail.php:784
+msgid "RESTORE DEFAULT TEMPLATE"
+msgstr ""
+
+#: admin/tabs/mail.php:260
+msgid "Staff Message New Ticket"
+msgstr ""
+
+#: admin/tabs/mail.php:262
+msgid "This email is sent to the staff members when a tikcet is created."
+msgstr ""
+
+#: admin/tabs/mail.php:304
+msgid "Client Message New Ticket"
+msgstr ""
+
+#: admin/tabs/mail.php:306
+msgid ""
+"This is the welcome email that is sent to the client when a new booking is "
+"generated."
+msgstr ""
+
+#: admin/tabs/mail.php:350
+msgid "Staff Password Change"
+msgstr ""
+
+#: admin/tabs/mail.php:352
+msgid ""
+"This message will be sent to the staff member every time the password is "
+"changed in the staff account."
+msgstr ""
+
+#: admin/tabs/mail.php:394
+msgid "Password Reset Link"
+msgstr ""
+
+#: admin/tabs/mail.php:396
+msgid ""
+"This message will be sent to the either the client or staff member, this "
+"message will containg a reset link."
+msgstr ""
+
+#: admin/tabs/mail.php:438 admin/tabs/mail.php:483 admin/tabs/mail.php:529
+msgid "PRO Only"
+msgstr ""
+
+#: admin/tabs/mail.php:441
+msgid "Welcome Email For Staff Members"
+msgstr ""
+
+#: admin/tabs/mail.php:443
+msgid ""
+"This message will be sent to the staff member and it includes a welcome "
+"message along with a reset link, this will allow the staff members to manage "
+"their tickets"
+msgstr ""
+
+#: admin/tabs/mail.php:486
+msgid "Client Registration Email"
+msgstr ""
+
+#: admin/tabs/mail.php:488
+msgid "This message will be sent to the client and it includes the password."
+msgstr ""
+
+#: admin/tabs/mail.php:532
+msgid "Assign Ticket To A Staff Member"
+msgstr ""
+
+#: admin/tabs/mail.php:534
+msgid ""
+"This email will be sent when a ticket is assigned to a new staff member. For "
+"example if the owner of Ticket #6588 is John and it's assigned to Mary, then "
+"Mary will receive a notification."
+msgstr ""
+
+#: admin/tabs/mail.php:577
+msgid "Ticket Status Change"
+msgstr ""
+
+#: admin/tabs/mail.php:579
+msgid ""
+"This email will be sent to the user when the status of a ticket has changed."
+msgstr ""
+
+#: admin/tabs/mail.php:622
+msgid "New Reply Staff Notification"
+msgstr ""
+
+#: admin/tabs/mail.php:624
+msgid ""
+"This email will be sent to the staff member when a new reply is added to the "
+"ticket"
+msgstr ""
+
+#: admin/tabs/mail.php:667
+msgid "New Reply Admin Notification"
+msgstr ""
+
+#: admin/tabs/mail.php:669
+msgid ""
+"This email will be sent to the admin when a new reply is added to the ticket"
+msgstr ""
+
+#: admin/tabs/mail.php:711
+msgid "New Reply User Notification"
+msgstr ""
+
+#: admin/tabs/mail.php:713
+msgid ""
+"This email will be sent to the user when either the admin or staff member "
+"add a new rely to a ticket."
+msgstr ""
+
+#: admin/tabs/mail.php:753
+msgid "Bugs & Issues Assigned Bug Email"
+msgstr ""
+
+#: admin/tabs/mail.php:755
+msgid ""
+"This email will be sent to the assigned user when on the bugs & issues "
+"module."
+msgstr ""
+
+#: admin/tabs/main.php:41 templates/dashboard.php:187
+#: templates/dashboard.php:261
+msgid "Ticket Summary"
+msgstr ""
+
+#: admin/tabs/main.php:50 templates/dashboard.php:197
+#: templates/dashboard.php:198
+msgid "Overdue"
+msgstr ""
+
+#: admin/tabs/main.php:55
+msgid "First Reply"
+msgstr ""
+
+#: admin/tabs/main.php:61 admin/tabs/main.php:62 classes/wptu.status.php:106
+#: classes/wptu.status.php:107 templates/dashboard.php:215
+#: templates/dashboard.php:216 templates/dashboard.php:282
+#: templates/dashboard.php:283
+msgid "Open"
+msgstr ""
+
+#: admin/tabs/main.php:70 admin/tabs/main.php:71 classes/wptu.status.php:113
+#: classes/wptu.status.php:114 templates/dashboard.php:224
+#: templates/dashboard.php:225 templates/dashboard.php:291
+#: templates/dashboard.php:292
+msgid "Pending"
+msgstr ""
+
+#: admin/tabs/main.php:79 admin/tabs/main.php:80 classes/wptu.status.php:120
+#: classes/wptu.status.php:121 templates/dashboard.php:233
+#: templates/dashboard.php:234 templates/dashboard.php:300
+#: templates/dashboard.php:301
+msgid "On-hold"
+msgstr ""
+
+#: admin/tabs/main.php:96 templates/dashboard.php:327
+msgid "First Reply Needed"
+msgstr ""
+
+#: admin/tabs/main.php:104 admin/tabs/main.php:219 admin/tabs/main.php:324
+#: admin/tabs/orders.php:118 admin/tabs/tickets.php:246
+#: classes/wptu.ticket.php:1642 templates/dashboard.php:335
+#: templates/dashboard.php:459 templates/dashboard.php:599
+#: templates/dashboard.php:749 templates/dashboard.php:872
+#: templates/dashboard.php:1510 templates/dashboard.php:1828
+#: templates/edit_ticket.php:131
+msgid "#"
+msgstr ""
+
+#: admin/tabs/main.php:105 admin/tabs/main.php:220 admin/tabs/main.php:325
+#: admin/tabs/orders.php:120 admin/tabs/tickets.php:247
+#: classes/wptu.ticket.php:1643 templates/dashboard.php:336
+#: templates/dashboard.php:460 templates/dashboard.php:600
+#: templates/dashboard.php:750 templates/dashboard.php:873
+#: templates/dashboard.php:1511 templates/dashboard.php:1829
+msgid "Date"
+msgstr ""
+
+#: admin/tabs/main.php:109 admin/tabs/main.php:222 admin/tabs/main.php:326
+#: admin/tabs/ticketedit.php:221 admin/tabs/tickets.php:250
+#: classes/wptu.department.php:737 classes/wptu.department.php:859
+#: templates/dashboard.php:341 templates/dashboard.php:463
+#: templates/dashboard.php:603 templates/dashboard.php:752
+#: templates/dashboard.php:875 templates/dashboard.php:1514
+#: templates/dashboard.php:1832
+msgid "Product"
+msgstr ""
+
+#: admin/tabs/main.php:113 admin/tabs/main.php:223 admin/tabs/main.php:327
+#: admin/tabs/tickets.php:252 classes/wptu.ticket.php:1652
+#: templates/dashboard.php:345 templates/dashboard.php:465
+#: templates/dashboard.php:605 templates/dashboard.php:754
+#: templates/dashboard.php:877 templates/dashboard.php:1516
+#: templates/dashboard.php:1834
+msgid "Department"
+msgstr ""
+
+#: admin/tabs/main.php:116 classes/wptu.admin.php:64
+#: classes/wptu.ticket.php:738 classes/wptu.user.php:244
+#: classes/wptu.user.php:2076 templates/dashboard.php:321
+msgid "Staff"
+msgstr ""
+
+#: admin/tabs/main.php:119 admin/tabs/main.php:230 admin/tabs/main.php:334
+#: admin/tabs/tickets.php:263 classes/wptu.class.php:758
+#: classes/wptu.class.php:827 classes/wptu.ticket.php:1658
+#: templates/dashboard.php:351 templates/dashboard.php:473
+#: templates/dashboard.php:612 templates/dashboard.php:761
+#: templates/dashboard.php:883 templates/dashboard.php:1527
+#: templates/dashboard.php:1845
+msgid "Subject"
+msgstr ""
+
+#: admin/tabs/main.php:120 admin/tabs/main.php:227 admin/tabs/main.php:331
+#: admin/tabs/tickets.php:256 classes/wptu.ticket.php:1659
+#: templates/dashboard.php:352 templates/dashboard.php:469
+#: templates/dashboard.php:609 templates/dashboard.php:758
+#: templates/dashboard.php:1520 templates/dashboard.php:1838
+msgid "Last Update"
+msgstr ""
+
+#: admin/tabs/main.php:122 admin/tabs/main.php:231 admin/tabs/main.php:335
+#: admin/tabs/tickets.php:264 classes/wptu.class.php:1962
+#: classes/wptu.class.php:2386 classes/wptu.ticket.php:1660
+#: templates/dashboard.php:353 templates/dashboard.php:474
+#: templates/dashboard.php:613 templates/dashboard.php:762
+#: templates/dashboard.php:884 templates/dashboard.php:1528
+#: templates/dashboard.php:1846
+msgid "Priority"
+msgstr ""
+
+#: admin/tabs/main.php:125 admin/tabs/orders.php:127 admin/tabs/tickets.php:267
+#: classes/wptu.ticket.php:1663 templates/dashboard.php:356
+#: templates/dashboard.php:477 templates/dashboard.php:616
+#: templates/dashboard.php:765 templates/dashboard.php:887
+#: templates/dashboard.php:1531 templates/dashboard.php:1849
+msgid "Status"
+msgstr ""
+
+#: admin/tabs/main.php:126 admin/tabs/main.php:234 admin/tabs/main.php:339
+#: admin/tabs/tickets.php:268 classes/wptu.department.php:863
+#: classes/wptu.priority.php:227 classes/wptu.ticket.php:1664
+#: templates/dashboard.php:357 templates/dashboard.php:478
+#: templates/dashboard.php:617 templates/dashboard.php:766
+#: templates/dashboard.php:888 templates/dashboard.php:1532
+#: templates/dashboard.php:1850
+msgid "Actions"
+msgstr ""
+
+#: admin/tabs/main.php:150 admin/tabs/ticketedit.php:20
+#: admin/tabs/tickets.php:290 admin/tabs/tickets.php:307
+#: classes/wptu.ticket.php:1687 templates/dashboard.php:271
+#: templates/dashboard.php:272 templates/dashboard.php:322
+#: templates/dashboard.php:379 templates/dashboard.php:498
+#: templates/dashboard.php:639 templates/dashboard.php:787
+#: templates/dashboard.php:907 templates/dashboard.php:1554
+#: templates/dashboard.php:1571 templates/dashboard.php:1872
+#: templates/dashboard.php:1889 templates/edit_ticket.php:74
+msgid "Unassigned"
+msgstr ""
+
+#: admin/tabs/main.php:178 admin/tabs/main.php:281 admin/tabs/main.php:388
+#: admin/tabs/tickets.php:341 classes/wptu.admin.php:1400
+#: classes/wptu.site.php:84 classes/wptu.ticket.php:1722
+#: templates/dashboard.php:411 templates/dashboard.php:542
+#: templates/dashboard.php:678 templates/dashboard.php:827
+#: templates/dashboard.php:946 templates/dashboard.php:1603
+#: templates/dashboard.php:1921
+msgid "Edit"
+msgstr ""
+
+#: admin/tabs/main.php:181 admin/tabs/main.php:284 admin/tabs/main.php:390
+#: admin/tabs/tickets.php:219 classes/wptu.admin.php:1400
+#: classes/wptu.department.php:884 classes/wptu.priority.php:265
+#: classes/wptu.site.php:84 classes/wptu.ticket.php:769
+#: classes/wptu.user.php:1079 templates/dashboard.php:545
+#: templates/dashboard.php:681 templates/dashboard.php:830
+#: templates/dashboard.php:949 templates/dashboard.php:1924
+msgid "Delete"
+msgstr ""
+
+#: admin/tabs/main.php:195 templates/dashboard.php:428
+#: templates/dashboard.php:844
+msgid "There are no tickets without a first reply."
+msgstr ""
+
+#: admin/tabs/main.php:203 templates/dashboard.php:582
+msgid "Open Tickets"
+msgstr ""
+
+#: admin/tabs/main.php:225 admin/tabs/main.php:328 admin/tabs/tickets.php:259
+#: templates/dashboard.php:1523 templates/dashboard.php:1841
+msgid "Owner"
+msgstr ""
+
+#: admin/tabs/main.php:226 admin/tabs/main.php:330 classes/wptu.ticket.php:1655
+msgid "Last Replier"
+msgstr ""
+
+#: admin/tabs/main.php:297 templates/dashboard.php:695
+msgid "There are no open tickets."
+msgstr ""
+
+#: admin/tabs/main.php:306 templates/dashboard.php:724
+msgid "Waiting For The Client's Reply"
+msgstr ""
+
+#: admin/tabs/main.php:402
+msgid "There are no tickets without a reply from the client."
+msgstr ""
+
+#: admin/tabs/orders.php:9
+msgid "Payments"
+msgstr ""
+
+#: admin/tabs/orders.php:28
+msgid "Keywords: "
+msgstr ""
+
+#: admin/tabs/orders.php:29
+msgid "Month: "
+msgstr ""
+
+#: admin/tabs/orders.php:30
+msgid "Day: "
+msgstr ""
+
+#: admin/tabs/orders.php:31
+msgid "Year: "
+msgstr ""
+
+#: admin/tabs/orders.php:35
+msgid "write some text here ..."
+msgstr ""
+
+#: admin/tabs/orders.php:37 admin/tabs/orders.php:50 admin/tabs/orders.php:63
+msgid "All"
+msgstr ""
+
+#: admin/tabs/orders.php:81 admin/tabs/tickets.php:193
+#: templates/dashboard.php:1481 templates/dashboard.php:1800
+msgid "Filter"
+msgstr ""
+
+#: admin/tabs/orders.php:88
+msgid "Total: "
+msgstr ""
+
+#: admin/tabs/orders.php:88
+msgid "Displaying per page: "
+msgstr ""
+
+#: admin/tabs/orders.php:119
+msgid "A. #"
+msgstr ""
+
+#: admin/tabs/orders.php:122 admin/tabs/tickets.php:63
+#: templates/dashboard.php:444 templates/dashboard.php:578
+#: templates/dashboard.php:1380 templates/dashboard.php:1674
+msgid "Client"
+msgstr ""
+
+#: admin/tabs/orders.php:123
+msgid "Service"
+msgstr ""
+
+#: admin/tabs/orders.php:124
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/tabs/orders.php:126
+msgid "Method"
+msgstr ""
+
+#: admin/tabs/orders.php:128
+msgid "Amount"
+msgstr ""
+
+#: admin/tabs/orders.php:162
+msgid "There are no transactions yet."
+msgstr ""
+
+#: admin/tabs/priority.php:27 classes/wptu.admin.php:204
+msgid "Add Priority"
+msgstr ""
+
+#: admin/tabs/priority.php:28 classes/wptu.admin.php:203
+msgid "Edit Priority"
+msgstr ""
+
+#: admin/tabs/priority.php:30
+msgid "Delete Priority"
+msgstr ""
+
+#: admin/tabs/pro.php:66
+msgid ""
+"This add-on helps you to improve your client's satisfaction. It Allows your "
+"clients to open support tickets with just one click from their Orders "
+"dashboard. If you're selling by using WooCommerce, offering support to your "
+"clients after the purchase is very important."
+msgstr ""
+
+#: admin/tabs/pro.php:73 admin/tabs/ticketedit.php:169
+#: admin/tabs/welcome.php:64 templates/edit_ticket.php:183
+msgid "Private Credentials"
+msgstr ""
+
+#: admin/tabs/pro.php:75
+msgid ""
+"The Private Credentials Add-on allows your clients to provide critical "
+"information with confidence. All sensitive information is encrypted in a "
+"secure database. This means that even if your database hacked, hackers won't "
+"be able to obtain the client's information."
+msgstr ""
+
+#: admin/tabs/pro.php:82 admin/tabs/ticketedit.php:292
+#: admin/tabs/welcome.php:73 templates/edit_ticket.php:290
+msgid "Canned Responses"
+msgstr ""
+
+#: admin/tabs/pro.php:84
+msgid ""
+"Stop writing the same replies over and over again. This tiny add-on saves "
+"you a lot of time. It's perfect for decreasing time spent creating replies "
+"and optimizes the time you or your staff spend on replying to tickets."
+msgstr ""
+
+#: admin/tabs/pro.php:93 admin/tabs/welcome.php:84
+msgid "Private Notes"
+msgstr ""
+
+#: admin/tabs/pro.php:95
+msgid ""
+"Adding either privates or public notes to a ticket is very easy.  This add-"
+"on allows users to attach public notes to a ticket and staff members and "
+"admin to attach public and private notes."
+msgstr ""
+
+#: admin/tabs/pro.php:103 admin/tabs/welcome.php:94
+msgid "Staff Backend"
+msgstr ""
+
+#: admin/tabs/pro.php:105 admin/tabs/welcome.php:96
+msgid ""
+"By installing either Team, Professional, or Enterprise versions, your staff "
+"members will be able to login to their accounts and manage tickets opened by "
+"your clients."
+msgstr ""
+
+#: admin/tabs/pro.php:112 admin/tabs/welcome.php:103
+msgid "Activity Log"
+msgstr ""
+
+#: admin/tabs/pro.php:114 admin/tabs/welcome.php:105
+msgid ""
+"At some point you will need to check what's happening between staff members "
+"and clients in real time. For that reason we have created this little but "
+"useful add-on that lets you keep a log of all the main actions when creating "
+"or replying tickets."
+msgstr ""
+
+#: admin/tabs/settings.php:5
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:14
+msgid "General"
+msgstr ""
+
+#: admin/tabs/settings.php:16
+msgid "Advanced Messaging Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:18
+msgid "Advanced Announcements"
+msgstr ""
+
+#: admin/tabs/settings.php:18
+msgid "Announcements"
+msgstr ""
+
+#: admin/tabs/settings.php:21
+msgid "Newsletter"
+msgstr ""
+
+#: admin/tabs/settings.php:23 admin/tabs/settings.php:35
+msgid "reCaptcha"
+msgstr ""
+
+#: admin/tabs/settings.php:39
+msgid ""
+"Please make sure that WP Ticket Ultra reCaptcha (Add-on) plugin is active."
+msgstr ""
+
+#: admin/tabs/settings.php:49
+msgid ""
+"This is a free add-on which was developed to help you to protect your ticket "
+"system against spammers."
+msgstr ""
+
+#: admin/tabs/settings.php:51
+msgid "You can get the Site Key and Secret Key on Google reCaptcha Dashboard"
+msgstr ""
+
+#: admin/tabs/settings.php:51 admin/tabs/settings.php:53
+msgid "Click here"
+msgstr ""
+
+#: admin/tabs/settings.php:53
+msgid "You may check the reCaptcha setup tutorial as well. "
+msgstr ""
+
+#: admin/tabs/settings.php:64
+msgid "Site Key:"
+msgstr ""
+
+#: admin/tabs/settings.php:65 admin/tabs/settings.php:66
+msgid "Enter your site key here."
+msgstr ""
+
+#: admin/tabs/settings.php:72
+msgid "Secret Key:"
+msgstr ""
+
+#: admin/tabs/settings.php:73 admin/tabs/settings.php:74
+msgid "Enter your site secret here."
+msgstr ""
+
+#: admin/tabs/settings.php:84
+msgid "Where to display?"
+msgstr ""
+
+#: admin/tabs/settings.php:87
+msgid "Select what forms will be protected by reCaptcha"
+msgstr ""
+
+#: admin/tabs/settings.php:96
+msgid "Registration Form"
+msgstr ""
+
+#: admin/tabs/settings.php:98 admin/tabs/settings.php:99
+msgid "If checked, the reCaptcha will be displayed in the registration form."
+msgstr ""
+
+#: admin/tabs/settings.php:107 admin/tabs/settings.php:108
+msgid "If checked, the reCaptcha will be displayed in the login form."
+msgstr ""
+
+#: admin/tabs/settings.php:115
+msgid "Forgot Password Form"
+msgstr ""
+
+#: admin/tabs/settings.php:117 admin/tabs/settings.php:118
+msgid ""
+"If checked, the reCaptcha will be displayed in the forgot password form."
+msgstr ""
+
+#: admin/tabs/settings.php:125
+msgid "Public Ticket Form"
+msgstr ""
+
+#: admin/tabs/settings.php:127 admin/tabs/settings.php:128
+msgid "If checked, the reCaptcha will be displayed in the ticket form."
+msgstr ""
+
+#: admin/tabs/settings.php:147
+msgid "Premium  Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:152
+msgid ""
+"This section includes some advanced settings that help you to offer a faster "
+"and optimized support to your clients."
+msgstr ""
+
+#: admin/tabs/settings.php:161
+msgid "Allow Users To Close or Resolve a Ticket?"
+msgstr ""
+
+#: admin/tabs/settings.php:166 admin/tabs/settings.php:167
+#: admin/tabs/settings.php:180
+msgid "This setting allows clients to close a ticket."
+msgstr ""
+
+#: admin/tabs/settings.php:174
+msgid "Allow Staff to delete ticket replies?"
+msgstr ""
+
+#: admin/tabs/settings.php:179
+msgid ""
+"This allows staff members to delete ticket replies. By the default the staff "
+"members can delete a reply within the ticket."
+msgstr ""
+
+#: admin/tabs/settings.php:187
+msgid "Limit Open Tickets By Users?"
+msgstr ""
+
+#: admin/tabs/settings.php:192 admin/tabs/settings.php:193
+msgid ""
+"This feature will control how many opened tickets a user might have. This is "
+"useful to organize your team. Some users use to open many tickets the same "
+"day, many of those tickets might be duplicated."
+msgstr ""
+
+#: admin/tabs/settings.php:199
+msgid "How many open tickets?"
+msgstr ""
+
+#: admin/tabs/settings.php:212 admin/tabs/settings.php:213
+msgid "Set the max amount of open tickets a user can have."
+msgstr ""
+
+#: admin/tabs/settings.php:225
+msgid ""
+"These settings are included in the premium version of WP Ticket Ulra. If you "
+"find the plugin useful for your business please consider buying a licence "
+"for the full version."
+msgstr ""
+
+#: admin/tabs/settings.php:237
+msgid "Miscellaneous  Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:239 admin/tabs/settings.php:402
+#: admin/tabs/settings.php:767
+msgid "."
+msgstr ""
+
+#: admin/tabs/settings.php:242
+msgid "Site Time: "
+msgstr ""
+
+#: admin/tabs/settings.php:242
+msgid "GMT: "
+msgstr ""
+
+#: admin/tabs/settings.php:252
+msgid "Company Name:"
+msgstr ""
+
+#: admin/tabs/settings.php:253 admin/tabs/settings.php:254
+msgid "Enter your company name here."
+msgstr ""
+
+#: admin/tabs/settings.php:260
+msgid "Company Phone Nunber:"
+msgstr ""
+
+#: admin/tabs/settings.php:261 admin/tabs/settings.php:262
+msgid "Enter your company phone number here."
+msgstr ""
+
+#: admin/tabs/settings.php:268
+msgid "Allowed Extensions:"
+msgstr ""
+
+#: admin/tabs/settings.php:269
+msgid ""
+"Enter the allowed extensions separated by commas. Example:  jpg,png,gif,jpeg,"
+"pdf,doc,docx,xls"
+msgstr ""
+
+#: admin/tabs/settings.php:270
+msgid ""
+"Enter the allowed extensions separated by commas. Example: jpg,png,gif,jpeg,"
+"pdf,doc,docx,xls"
+msgstr ""
+
+#: admin/tabs/settings.php:278
+msgid "Custom Message for Ticket Submit"
+msgstr ""
+
+#: admin/tabs/settings.php:279 admin/tabs/settings.php:280
+#: admin/tabs/settings.php:464 admin/tabs/settings.php:465
+#: admin/tabs/settings.php:486 admin/tabs/settings.php:487
+msgid ""
+"Input here a custom message that will be displayed to the client once the "
+"ticket has been submited at the front page."
+msgstr ""
+
+#: admin/tabs/settings.php:329
+msgid "Date Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:331 admin/tabs/settings.php:332
+msgid "Select the date format to be used"
+msgstr ""
+
+#: admin/tabs/settings.php:338
+msgid "Display Time Format:"
+msgstr ""
+
+#: admin/tabs/settings.php:340 admin/tabs/settings.php:341
+msgid "Select the time format to be used"
+msgstr ""
+
+#: admin/tabs/settings.php:350
+msgid "Use WP Ticket Ultra Avatar"
+msgstr ""
+
+#: admin/tabs/settings.php:356
+msgid ""
+"If you select \"yes\", WP Ticket Ultra will override the default WordPress "
+"Avatar"
+msgstr ""
+
+#: admin/tabs/settings.php:357
+msgid ""
+"If you select \"yes\",  WP Ticket Ultra will override the default WordPress "
+"Avatar"
+msgstr ""
+
+#: admin/tabs/settings.php:363
+msgid "Auto Rotation Fixer"
+msgstr ""
+
+#: admin/tabs/settings.php:369 admin/tabs/settings.php:370
+msgid ""
+"If you select 'yes',  WP Ticket Ultra will Automatically fix the rotation of "
+"JPEG images using PHP's EXIF extension, immediately after they are uploaded "
+"to the server. This is implemented for iPhone rotation issues"
+msgstr ""
+
+#: admin/tabs/settings.php:376
+msgid "Avatar Width:"
+msgstr ""
+
+#: admin/tabs/settings.php:377 admin/tabs/settings.php:378
+msgid "Width in pixels"
+msgstr ""
+
+#: admin/tabs/settings.php:384
+msgid "Avatar Height"
+msgstr ""
+
+#: admin/tabs/settings.php:385 admin/tabs/settings.php:386
+msgid "Height in pixels"
+msgstr ""
+
+#: admin/tabs/settings.php:400
+msgid "Ticket Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:411
+msgid "Custom help text for email field on new ticket form:"
+msgstr ""
+
+#: admin/tabs/settings.php:412 admin/tabs/settings.php:413
+msgid ""
+"Enter your custom text that will be displyed under the email field on the "
+"submit new tiket form."
+msgstr ""
+
+#: admin/tabs/settings.php:437 classes/wptu.admin.php:67
+msgid "Notifications"
+msgstr ""
+
+#: admin/tabs/settings.php:438
+msgid ""
+"These settings allow you to display different messages on the staff & client "
+"account. This is useful to display messages on weekends, holidays etc."
+msgstr ""
+
+#: admin/tabs/settings.php:450
+msgid "Display Message At Private Panel On Weekends?:"
+msgstr ""
+
+#: admin/tabs/settings.php:456
+msgid ""
+"This allows you to dispaly a message within the client's backend on "
+"weekends. "
+msgstr ""
+
+#: admin/tabs/settings.php:457
+msgid ""
+"This allows you to dispaly a message within the client's backend on weekends."
+msgstr ""
+
+#: admin/tabs/settings.php:463 admin/tabs/settings.php:485
+msgid "Custom Message On Weekend"
+msgstr ""
+
+#: admin/tabs/settings.php:472
+msgid "Display Message At Public Side On Weekends?:"
+msgstr ""
+
+#: admin/tabs/settings.php:478 admin/tabs/settings.php:479
+msgid ""
+"This allows you to dispaly a message on the front-end when it's weekend. "
+msgstr ""
+
+#: admin/tabs/settings.php:497
+msgid ""
+"This feature is available on Premium versions only. Please consider "
+"upgrading your plugin."
+msgstr ""
+
+#: admin/tabs/settings.php:497
+msgid " Click here"
+msgstr ""
+
+#: admin/tabs/settings.php:497
+msgid " to upgrade."
+msgstr ""
+
+#: admin/tabs/settings.php:520
+msgid "General Rules"
+msgstr ""
+
+#: admin/tabs/settings.php:521 admin/tabs/settings.php:574
+msgid ""
+"These settings allow you to define rules on how the staff members and admin "
+"are notified when a ticket is created."
+msgstr ""
+
+#: admin/tabs/settings.php:531
+msgid "Send Email Notifications to Admin?:"
+msgstr ""
+
+#: admin/tabs/settings.php:537 admin/tabs/settings.php:538
+msgid ""
+"This allows you to block email notifications that are sent to the admin."
+msgstr ""
+
+#: admin/tabs/settings.php:544
+msgid "Send Email Notifications to Staff Members?:"
+msgstr ""
+
+#: admin/tabs/settings.php:550 admin/tabs/settings.php:551
+msgid ""
+"This allows you to block email notifications that are sent to the staff "
+"members."
+msgstr ""
+
+#: admin/tabs/settings.php:558
+msgid "Send Email Notifications to Clients?:"
+msgstr ""
+
+#: admin/tabs/settings.php:564 admin/tabs/settings.php:565
+msgid ""
+"This allows you to block email notifications that are sent to the clients."
+msgstr ""
+
+#: admin/tabs/settings.php:573
+msgid "Advanced Rules"
+msgstr ""
+
+#: admin/tabs/settings.php:582
+msgid "New Ticket Notification Rule:"
+msgstr ""
+
+#: admin/tabs/settings.php:584 admin/tabs/settings.php:599
+msgid "Notify all staff members within the department"
+msgstr ""
+
+#: admin/tabs/settings.php:585 admin/tabs/settings.php:600
+msgid "Notify only website admin"
+msgstr ""
+
+#: admin/tabs/settings.php:586
+msgid ""
+"Don't send notifications (Only the client receives a confirmation email)"
+msgstr ""
+
+#: admin/tabs/settings.php:597
+msgid "New Replies Notification Rule:"
+msgstr ""
+
+#: admin/tabs/settings.php:601
+msgid "Notify only the topic owner"
+msgstr ""
+
+#: admin/tabs/settings.php:602
+msgid "Don't send notifications"
+msgstr ""
+
+#: admin/tabs/settings.php:638
+msgid "Newsletter Preferences"
+msgstr ""
+
+#: admin/tabs/settings.php:640
+msgid "Here you can activate your preferred newsletter tool."
+msgstr ""
+
+#: admin/tabs/settings.php:648
+msgid "Activate Newsletter"
+msgstr ""
+
+#: admin/tabs/settings.php:651
+msgid "AWeber"
+msgstr ""
+
+#: admin/tabs/settings.php:652
+msgid "MailChimp"
+msgstr ""
+
+#: admin/tabs/settings.php:655 admin/tabs/settings.php:656
+msgid "Just set \"NO\" to deactivate the newsletter tool."
+msgstr ""
+
+#: admin/tabs/settings.php:676
+msgid "This function is available only on certain versions."
+msgstr ""
+
+#: admin/tabs/settings.php:687
+msgid "Aweber Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:689
+msgid ""
+"This module gives you the capability to subscribe your clients automatically "
+"to any of your Aweber List when they submit a ticket."
+msgstr ""
+
+#: admin/tabs/settings.php:699
+msgid "APP ID"
+msgstr ""
+
+#: admin/tabs/settings.php:700 admin/tabs/settings.php:701
+msgid "Fill out this field with your AWeber APP ID."
+msgstr ""
+
+#: admin/tabs/settings.php:707
+msgid "Consumer Key"
+msgstr ""
+
+#: admin/tabs/settings.php:708 admin/tabs/settings.php:709
+msgid "Fill out this field your AWeber Consumer Key."
+msgstr ""
+
+#: admin/tabs/settings.php:715
+msgid "Consumer Secret"
+msgstr ""
+
+#: admin/tabs/settings.php:716 admin/tabs/settings.php:717
+msgid "Fill out this field your AWeber Consumer Secret."
+msgstr ""
+
+#: admin/tabs/settings.php:726
+msgid "Auto Checked Aweber"
+msgstr ""
+
+#: admin/tabs/settings.php:728 admin/tabs/settings.php:729
+msgid ""
+"If checked, the user will not need to click on the AWeber checkbox. It will "
+"appear checked already."
+msgstr ""
+
+#: admin/tabs/settings.php:734
+msgid "Aweber Text"
+msgstr ""
+
+#: admin/tabs/settings.php:735 admin/tabs/settings.php:736
+#: admin/tabs/settings.php:804 admin/tabs/settings.php:805
+msgid ""
+"Please input the text that will appear when asking users to get periodical "
+"updates."
+msgstr ""
+
+#: admin/tabs/settings.php:742
+msgid "Aweber Header Text"
+msgstr ""
+
+#: admin/tabs/settings.php:743 admin/tabs/settings.php:744
+msgid "Please input the text that will appear as header when AWeber is active."
+msgstr ""
+
+#: admin/tabs/settings.php:765
+msgid "MailChimp Settings"
+msgstr ""
+
+#: admin/tabs/settings.php:777
+msgid "MailChimp API Key"
+msgstr ""
+
+#: admin/tabs/settings.php:778 admin/tabs/settings.php:779
+msgid ""
+"Fill out this field with your MailChimp API key here to allow integration "
+"with MailChimp subscription."
+msgstr ""
+
+#: admin/tabs/settings.php:785
+msgid "MailChimp List ID"
+msgstr ""
+
+#: admin/tabs/settings.php:786 admin/tabs/settings.php:787
+msgid "Fill out this field your list ID."
+msgstr ""
+
+#: admin/tabs/settings.php:795
+msgid "Auto Checked MailChimp"
+msgstr ""
+
+#: admin/tabs/settings.php:797 admin/tabs/settings.php:798
+msgid ""
+"If checked, the user will not need to click on the mailchip checkbox. It "
+"will appear checked already."
+msgstr ""
+
+#: admin/tabs/settings.php:803
+msgid "MailChimp Text"
+msgstr ""
+
+#: admin/tabs/settings.php:811
+msgid "MailChimp Header Text"
+msgstr ""
+
+#: admin/tabs/settings.php:812 admin/tabs/settings.php:813
+msgid ""
+"Please input the text that will appear as header when mailchip is active."
+msgstr ""
+
+#: admin/tabs/ticketedit.php:47 templates/dashboard.php:989
+msgid "Your request has been sent successfully"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:67 templates/edit_ticket.php:112
+msgid "Mark As Solved"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:73 templates/edit_ticket.php:118
+msgid "Mark As Closed"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:73 templates/edit_ticket.php:118
+msgid "Close Ticket"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:93
+msgid "Tickets By This User"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:101
+msgid "Current Tickets By This User"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:110
+msgid " #"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:112 templates/edit_ticket.php:133
+msgid "Created: "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:112 templates/edit_ticket.php:133
+msgid "Updated: "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:112 templates/edit_ticket.php:133
+msgid "User: "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:125 templates/edit_ticket.php:153
+msgid "DEPARTMENT"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:132 templates/edit_ticket.php:158
+msgid "OWNER"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:135
+msgid "Edit Owner"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:140 templates/edit_ticket.php:163
+msgid "TYPE"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:143
+msgid "Edit Type"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:148 templates/edit_ticket.php:168
+msgid "STATUS"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:151 admin/tabs/ticketedit.php:370
+#: classes/wptu.user.php:125
+msgid "Change Status"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:156 templates/edit_ticket.php:173
+msgid "PRIORITY"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:159 admin/tabs/ticketedit.php:371
+msgid "Change Priority"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:175 templates/edit_ticket.php:189
+msgid ""
+"Here you can add multiple credentials for multiple systems. The data is "
+"encrypted. "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:186 admin/tabs/ticketedit.php:210
+#: templates/edit_ticket.php:200 templates/edit_ticket.php:225
+msgid "This feature is available as add-on only. "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:194 templates/edit_ticket.php:209
+msgid "Notes"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:237 templates/edit_ticket.php:251
+msgid "Ticket Details"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:253 templates/edit_ticket.php:265
+msgid "Add reply"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:259 templates/edit_ticket.php:271
+msgid "Your Message"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:304 templates/edit_ticket.php:303
+msgid "Add files"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:323 templates/edit_ticket.php:332
+msgid "Reply and mark as: "
+msgstr ""
+
+#: admin/tabs/ticketedit.php:333 templates/edit_ticket.php:343
+msgid "SUBMIT"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:369
+msgid "Change Owner"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:372 templates/edit_ticket.php:381
+msgid "Add Private Credential"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:374
+msgid "Active Tickets For This User"
+msgstr ""
+
+#: admin/tabs/ticketedit.php:376 templates/edit_ticket.php:382
+msgid "Add Notes"
+msgstr ""
+
+#: admin/tabs/tickets.php:64 templates/dashboard.php:1381
+#: templates/dashboard.php:1675
+msgid "All Tickets"
+msgstr ""
+
+#: admin/tabs/tickets.php:83
+msgid "input some text here"
+msgstr ""
+
+#: admin/tabs/tickets.php:87 templates/dashboard.php:1399
+#: templates/dashboard.php:1693
+msgid "All Months"
+msgstr ""
+
+#: admin/tabs/tickets.php:101 templates/dashboard.php:1413
+#: templates/dashboard.php:1707
+msgid "All Days"
+msgstr ""
+
+#: admin/tabs/tickets.php:115 templates/dashboard.php:1427
+#: templates/dashboard.php:1721
+msgid "All Years"
+msgstr ""
+
+#: admin/tabs/tickets.php:130 templates/dashboard.php:1736
+msgid "All Websites"
+msgstr ""
+
+#: admin/tabs/tickets.php:157 templates/dashboard.php:1444
+#: templates/dashboard.php:1763
+msgid "All Status"
+msgstr ""
+
+#: admin/tabs/tickets.php:185 admin/tabs/tickets.php:186
+#: admin/tabs/tickets.php:187 admin/tabs/tickets.php:188
+#: admin/tabs/tickets.php:189 templates/dashboard.php:1473
+#: templates/dashboard.php:1474 templates/dashboard.php:1475
+#: templates/dashboard.php:1476 templates/dashboard.php:1477
+#: templates/dashboard.php:1792 templates/dashboard.php:1793
+#: templates/dashboard.php:1794 templates/dashboard.php:1795
+#: templates/dashboard.php:1796
+msgid "Per Page"
+msgstr ""
+
+#: admin/tabs/tickets.php:218
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/tabs/tickets.php:224
+msgid "Apply"
+msgstr ""
+
+#: admin/tabs/tickets.php:341 classes/wptu.status.php:146
+#: classes/wptu.status.php:147
+msgid "Trash"
+msgstr ""
+
+#: admin/tabs/tickets.php:355 templates/dashboard.php:559
+#: templates/dashboard.php:1938
+msgid "There are no tickets."
+msgstr ""
+
+#: admin/tabs/users.php:80 templates/dashboard.php:1202
+msgid "'s Picture"
+msgstr ""
+
+#: admin/tabs/users.php:104
+msgid "Add Breaks"
+msgstr ""
+
+#: admin/tabs/users.php:110 classes/wptu.user.php:2077
+msgid "Add New Staff Member"
+msgstr ""
+
+#: admin/tabs/welcome.php:18
+msgid "Helping the Community"
+msgstr ""
+
+#: admin/tabs/welcome.php:35
+msgid "1) It's very importante that you follow the Getting Started Guide:"
+msgstr ""
+
+#: admin/tabs/welcome.php:43
+msgid "Empowering your Help Desk Plugin"
+msgstr ""
+
+#: admin/tabs/welcome.php:57
+msgid ""
+"This add-on helps you to improve your clients' satisfaction. It Allows your "
+"clients to open support tickets with just one click from their Orders "
+"dashboard. If you're selling by using WooCommerce, offering support to your "
+"clients after the purchase is very important."
+msgstr ""
+
+#: admin/tabs/welcome.php:66
+msgid ""
+"The Private Credentials Add-on allows your clients to provide critical "
+"information with confidence. All sensitive information is encrypted in a "
+"secure database. This means that even if your database is targeted, hackers "
+"won't be able to obtain the client's information."
+msgstr ""
+
+#: admin/tabs/welcome.php:75 admin/tabs/welcome.php:86
+msgid ""
+"Stop writing the same replies over and over again. Though she be little, "
+"this tiny add-on saves you a lot of time. It's perfect for decreasing time "
+"spent creating replies and optimizes the time you or your staff spend on "
+"replying to tickets."
+msgstr ""
+
+#: classes/wptu.admin.php:60
+msgid "Dashboard"
+msgstr ""
+
+#: classes/wptu.admin.php:62 classes/wptu.user.php:1100
+msgid "Products & Departments"
+msgstr ""
+
+#: classes/wptu.admin.php:63
+msgid "Ticket Property"
+msgstr ""
+
+#: classes/wptu.admin.php:65
+msgid "Fields"
+msgstr ""
+
+#: classes/wptu.admin.php:66 templates/dashboard.php:1225
+msgid "Settings"
+msgstr ""
+
+#: classes/wptu.admin.php:68
+msgid "Doc"
+msgstr ""
+
+#: classes/wptu.admin.php:69
+msgid "GO PRO!"
+msgstr ""
+
+#: classes/wptu.admin.php:189
+msgid "Are you totally sure that you wan to delete this category?"
+msgstr ""
+
+#: classes/wptu.admin.php:190
+msgid "Are you totally sure that you wan to delete this department?"
+msgstr ""
+
+#: classes/wptu.admin.php:192
+msgid "Are you totally sure that you wan to send this ticket to the trash?"
+msgstr ""
+
+#: classes/wptu.admin.php:194
+msgid "Are you totally sure?"
+msgstr ""
+
+#: classes/wptu.admin.php:195
+msgid "Set a new priority"
+msgstr ""
+
+#: classes/wptu.admin.php:207 classes/wptu.profile.php:59
+msgid "ERROR!. Please write a message "
+msgstr ""
+
+#: classes/wptu.admin.php:209 classes/wptu.profile.php:61
+msgid " <img src=\""
+msgstr ""
+
+#: classes/wptu.admin.php:210 classes/wptu.profile.php:57
+msgid "<img src=\""
+msgstr ""
+
+#: classes/wptu.admin.php:215
+msgid "Edit Note"
+msgstr ""
+
+#: classes/wptu.admin.php:217
+msgid "Edit Category"
+msgstr ""
+
+#: classes/wptu.admin.php:218
+msgid "Add Category"
+msgstr ""
+
+#: classes/wptu.admin.php:220 classes/wptu.profile.php:72
+msgid "Please input a title"
+msgstr ""
+
+#: classes/wptu.admin.php:221
+msgid "Are you totally sure that you wan to delete this service?"
+msgstr ""
+
+#: classes/wptu.admin.php:222
+msgid "Are you totally sure that you wan to delete this user?"
+msgstr ""
+
+#: classes/wptu.admin.php:224
+msgid "Please set a new status"
+msgstr ""
+
+#: classes/wptu.admin.php:225
+msgid "Please set a new priority"
+msgstr ""
+
+#: classes/wptu.admin.php:310
+#, php-format
+msgid "%d new manual activation requests"
+msgstr ""
+
+#: classes/wptu.admin.php:313
+#, php-format
+msgid "WP Ticket Ultra %s"
+msgstr ""
+
+#: classes/wptu.admin.php:317 classes/wptu.admin.php:320
+msgid "WP Ticket Ultra"
+msgstr ""
+
+#: classes/wptu.admin.php:328
+msgid "More Functionality!"
+msgstr ""
+
+#: classes/wptu.admin.php:334
+msgid "Licensing"
+msgstr ""
+
+#: classes/wptu.admin.php:404
+msgid "WP Ticket Ultra Plugin"
+msgstr ""
+
+#: classes/wptu.admin.php:414
+msgid ""
+"Finally, it's the weekend!. We Work From Monday To Friday From 8AM To 5PM. "
+"Since we're on weekend a reply should be received on either Monday or "
+"Tuesday. Thank you very much for your understanding."
+msgstr ""
+
+#: classes/wptu.admin.php:416
+msgid ""
+"We Work From Monday To Friday From 8AM To 5PM. Since we're on weekend a "
+"reply should be received on either Monday or Tuesday. Thank you very much "
+"for your understanding."
+msgstr ""
+
+#: classes/wptu.admin.php:420 classes/wptu.admin.php:423
+msgid "New ticket"
+msgstr ""
+
+#: classes/wptu.admin.php:426 classes/wptu.admin.php:429
+msgid "New reply"
+msgstr ""
+
+#: classes/wptu.admin.php:432
+msgid "Customer Support"
+msgstr ""
+
+#: classes/wptu.admin.php:435
+msgid "User Reply"
+msgstr ""
+
+#: classes/wptu.admin.php:438
+msgid "Password Changed"
+msgstr ""
+
+#: classes/wptu.admin.php:444 classes/wptu.admin.php:447
+msgid "Your Account Details"
+msgstr ""
+
+#: classes/wptu.admin.php:450
+msgid "New Ticket Assigned"
+msgstr ""
+
+#: classes/wptu.admin.php:453
+msgid "Ticket Status Changed"
+msgstr ""
+
+#: classes/wptu.admin.php:457
+msgid "Bug Assigned"
+msgstr ""
+
+#: classes/wptu.admin.php:470 classes/wptu.admin.php:491
+msgid "A new support ticket has been submitted."
+msgstr ""
+
+#: classes/wptu.admin.php:472 classes/wptu.admin.php:493
+#: classes/wptu.admin.php:513 classes/wptu.admin.php:530
+#: classes/wptu.admin.php:659 classes/wptu.admin.php:683
+msgid "Ticket Details:"
+msgstr ""
+
+#: classes/wptu.admin.php:473 classes/wptu.admin.php:494
+#: classes/wptu.admin.php:514 classes/wptu.admin.php:531
+#: classes/wptu.admin.php:558 classes/wptu.admin.php:586
+#: classes/wptu.admin.php:660 classes/wptu.admin.php:684
+#: classes/wptu.admin.php:706
+msgid "Product: <strong>{{wptu_website_name}} </strong>"
+msgstr ""
+
+#: classes/wptu.admin.php:474 classes/wptu.admin.php:495
+#: classes/wptu.admin.php:515 classes/wptu.admin.php:532
+#: classes/wptu.admin.php:559 classes/wptu.admin.php:587
+#: classes/wptu.admin.php:661 classes/wptu.admin.php:685
+msgid "Ticket Number: <strong>{{wptu_ticket_number}} </strong>"
+msgstr ""
+
+#: classes/wptu.admin.php:475 classes/wptu.admin.php:496
+#: classes/wptu.admin.php:560 classes/wptu.admin.php:662
+msgid "Date: {{wptu_date}}"
+msgstr ""
+
+#: classes/wptu.admin.php:476 classes/wptu.admin.php:497
+#: classes/wptu.admin.php:561 classes/wptu.admin.php:663
+msgid "Department: {{wptu_department}}"
+msgstr ""
+
+#: classes/wptu.admin.php:477 classes/wptu.admin.php:498
+#: classes/wptu.admin.php:516 classes/wptu.admin.php:533
+#: classes/wptu.admin.php:562 classes/wptu.admin.php:664
+msgid "Priority: {{wptu_priority}}"
+msgstr ""
+
+#: classes/wptu.admin.php:478 classes/wptu.admin.php:499
+#: classes/wptu.admin.php:517 classes/wptu.admin.php:534
+#: classes/wptu.admin.php:563 classes/wptu.admin.php:665
+msgid "Subject: {{wptu_subject}}"
+msgstr ""
+
+#: classes/wptu.admin.php:480 classes/wptu.admin.php:501
+#: classes/wptu.admin.php:565 classes/wptu.admin.php:589
+#: classes/wptu.admin.php:667
+msgid "{{wptu_message}}"
+msgstr ""
+
+#: classes/wptu.admin.php:483 classes/wptu.admin.php:504
+#: classes/wptu.admin.php:521 classes/wptu.admin.php:538
+#: classes/wptu.admin.php:567 classes/wptu.admin.php:591
+#: classes/wptu.admin.php:603 classes/wptu.admin.php:616
+#: classes/wptu.admin.php:630 classes/wptu.admin.php:645
+#: classes/wptu.admin.php:669 classes/wptu.admin.php:688
+#: classes/wptu.admin.php:714
+msgid "Best Regards!"
+msgstr ""
+
+#: classes/wptu.admin.php:511
+msgid "A new reply has been added to the following ticket."
+msgstr ""
+
+#: classes/wptu.admin.php:528
+msgid "Admin, A new reply has been added to the following ticket."
+msgstr ""
+
+#: classes/wptu.admin.php:546
+msgid "Thanks for getting in touch. We're looking into your request."
+msgstr ""
+
+#: classes/wptu.admin.php:548
+msgid ""
+"Generally all inquiries are answered in the order they are created. "
+"Occasionally, due to some requests requiring more research than others and "
+"also due to excessive demand, a reply may take longer than one business day. "
+"Please accept our apologies in advance for any reply that exceeds this time "
+"frame, but be assured we are working hard to get back to you as quickly as "
+"possible to provide a considerate response"
+msgstr ""
+
+#: classes/wptu.admin.php:550
+msgid "Thank you for your patience!."
+msgstr ""
+
+#: classes/wptu.admin.php:551 classes/wptu.admin.php:579
+msgid ""
+"To review the status of the request and add comments you have to login to "
+"your account."
+msgstr ""
+
+#: classes/wptu.admin.php:553 classes/wptu.admin.php:581
+msgid "Please use the link below to login to your account."
+msgstr ""
+
+#: classes/wptu.admin.php:557 classes/wptu.admin.php:585
+msgid "Request Details:"
+msgstr ""
+
+#: classes/wptu.admin.php:576
+msgid "A new reply has been added to your ticket."
+msgstr ""
+
+#: classes/wptu.admin.php:601
+msgid "This is a notification that your password has been changed. "
+msgstr ""
+
+#: classes/wptu.admin.php:612 classes/wptu.admin.php:627
+msgid "Please use the following link to reset your password."
+msgstr ""
+
+#: classes/wptu.admin.php:614
+msgid "If you did not request a new password delete this email."
+msgstr ""
+
+#: classes/wptu.admin.php:625
+msgid "Your login details for your account are as follows:"
+msgstr ""
+
+#: classes/wptu.admin.php:626 classes/wptu.admin.php:640
+msgid "Username: {{wptu_user_name}}"
+msgstr ""
+
+#: classes/wptu.admin.php:638
+msgid "Hello "
+msgstr ""
+
+#: classes/wptu.admin.php:639
+msgid ""
+"Thank you for your registration. Your login details for your account are as "
+"follows:"
+msgstr ""
+
+#: classes/wptu.admin.php:641
+msgid "Password: {{wptu_user_password}}"
+msgstr ""
+
+#: classes/wptu.admin.php:642
+msgid "Please use the following link to login to your account."
+msgstr ""
+
+#: classes/wptu.admin.php:654
+msgid "A new ticket has been assigned to you:"
+msgstr ""
+
+#: classes/wptu.admin.php:656 classes/wptu.admin.php:680
+msgid "Please login to your account to check the ticket's details."
+msgstr ""
+
+#: classes/wptu.admin.php:678
+msgid ""
+"This email is to notify you that the status of the ticket "
+"#{{wptu_ticket_number}} has changed."
+msgstr ""
+
+#: classes/wptu.admin.php:686
+msgid "New Status: {{wptu_ticket_status}}"
+msgstr ""
+
+#: classes/wptu.admin.php:700
+msgid "A new bug or issue has been assigned to you:"
+msgstr ""
+
+#: classes/wptu.admin.php:702
+msgid "Please login to your account to check the details details."
+msgstr ""
+
+#: classes/wptu.admin.php:705
+msgid "Details:"
+msgstr ""
+
+#: classes/wptu.admin.php:707
+msgid "Issue Number: <strong>{{wptu_bug_number}} </strong>"
+msgstr ""
+
+#: classes/wptu.admin.php:708
+msgid "Assignment Date: {{wptu_date}}"
+msgstr ""
+
+#: classes/wptu.admin.php:709
+msgid "Status: {{wptu_bug_status}}"
+msgstr ""
+
+#: classes/wptu.admin.php:710
+msgid "Priority: {{wptu_bug_priority}}"
+msgstr ""
+
+#: classes/wptu.admin.php:711
+msgid "Subject: {{wptu_bug_subject}}"
+msgstr ""
+
+#: classes/wptu.admin.php:1031
+msgid "Position"
+msgstr ""
+
+#: classes/wptu.admin.php:1036
+msgid ""
+"Please use a unique position. Position lets you place the new field in the "
+"place you want exactly in Profile view."
+msgstr ""
+
+#: classes/wptu.admin.php:1040
+msgid "Field Type"
+msgstr ""
+
+#: classes/wptu.admin.php:1044
+msgid "Profile Field"
+msgstr ""
+
+#: classes/wptu.admin.php:1050
+msgid "You can create a separator or a usermeta (profile field)"
+msgstr ""
+
+#: classes/wptu.admin.php:1056
+msgid "Field Input"
+msgstr ""
+
+#: classes/wptu.admin.php:1073
+msgid "Custom Meta Field"
+msgstr ""
+
+#: classes/wptu.admin.php:1085
+msgid "Label / Name"
+msgstr ""
+
+#: classes/wptu.admin.php:1149
+msgid "This field is Required"
+msgstr ""
+
+#: classes/wptu.admin.php:1186
+msgid "Show on Registration Form"
+msgstr ""
+
+#: classes/wptu.admin.php:1196
+msgid "Show this profile field on the registration form"
+msgstr ""
+
+#: classes/wptu.admin.php:1214
+msgid "Available Choices"
+msgstr ""
+
+#: classes/wptu.admin.php:1221
+msgid ""
+"<strong>PLEASE NOTE: </strong>Enter values separated by commas, example: "
+"1,2,3. The choices will be available for front end user to choose from."
+msgstr ""
+
+#: classes/wptu.admin.php:1224
+msgid ""
+"<strong>PLEASE NOTE:</strong> Enter one choice per line please. The choices "
+"will be available for front end user to choose from."
+msgstr ""
+
+#: classes/wptu.admin.php:1235
+msgid ""
+"Enter one choice per line please. The choices will be available for front "
+"end user to choose from."
+msgstr ""
+
+#: classes/wptu.admin.php:1243
+msgid "Enable Predefined Choices"
+msgstr ""
+
+#: classes/wptu.admin.php:1247
+msgid "None"
+msgstr ""
+
+#: classes/wptu.admin.php:1250
+msgid "List of Countries"
+msgstr ""
+
+#: classes/wptu.admin.php:1254
+msgid "Age"
+msgstr ""
+
+#: classes/wptu.admin.php:1257
+msgid ""
+"You can enable a predefined filter for choices. e.g. List of countries It "
+"enables country selection in profiles and saves you time to do it on your "
+"own."
+msgstr ""
+
+#: classes/wptu.admin.php:1271
+msgid "Update"
+msgstr ""
+
+#: classes/wptu.admin.php:1290 classes/wptu.class.php:883
+msgid "Appointment Info"
+msgstr ""
+
+#: classes/wptu.admin.php:1303 classes/wptu.class.php:769
+#: classes/wptu.class.php:839 classes/wptu.class.php:896
+msgid "Comments"
+msgstr ""
+
+#: classes/wptu.admin.php:1385
+msgid " - Separator"
+msgstr ""
+
+#: classes/wptu.admin.php:1389
+msgid " - Profile Field"
+msgstr ""
+
+#: classes/wptu.admin.php:1411
+msgid "Success! This field has been deleted "
+msgstr ""
+
+#: classes/wptu.admin.php:1509
+msgid "Settings saved."
+msgstr ""
+
+#: classes/wptu.admin.php:1631 classes/wptu.admin.php:1666
+msgid "Congratulations!. Your copy has been validated"
+msgstr ""
+
+#: classes/wptu.admin.php:1638 classes/wptu.admin.php:1673
+msgid "We are sorry the serial key you have used has expired"
+msgstr ""
+
+#: classes/wptu.admin.php:1645 classes/wptu.admin.php:1680
+msgid "We are sorry your serial key is not valid"
+msgstr ""
+
+#: classes/wptu.admin.php:1731
+msgid "Technical Support"
+msgstr ""
+
+#: classes/wptu.admin.php:1739
+msgid "Billing Issue"
+msgstr ""
+
+#: classes/wptu.admin.php:1747
+msgid "Feature Request"
+msgstr ""
+
+#: classes/wptu.admin.php:1755
+msgid "Refund"
+msgstr ""
+
+#: classes/wptu.admin.php:1763
+msgid "Other"
+msgstr ""
+
+#: classes/wptu.admin.php:1855
+msgid "Select a Department"
+msgstr ""
+
+#: classes/wptu.admin.php:1896
+msgid "Email Template has been restored."
+msgstr ""
+
+#: classes/wptu.break.php:72
+msgid "Done!"
+msgstr ""
+
+#: classes/wptu.break.php:76
+msgid "ERROR. Duplicated Break!"
+msgstr ""
+
+#: classes/wptu.break.php:99
+msgid "to"
+msgstr ""
+
+#: classes/wptu.break.php:101
+msgid "Add"
+msgstr ""
+
+#: classes/wptu.break.php:173
+msgid "Monday"
+msgstr ""
+
+#: classes/wptu.break.php:175 classes/wptu.break.php:191
+#: classes/wptu.break.php:206 classes/wptu.break.php:220
+#: classes/wptu.break.php:234 classes/wptu.break.php:249
+#: classes/wptu.break.php:263
+msgid "Add Break"
+msgstr ""
+
+#: classes/wptu.break.php:189
+msgid "Tuesday"
+msgstr ""
+
+#: classes/wptu.break.php:204
+msgid "Wednesday"
+msgstr ""
+
+#: classes/wptu.break.php:218
+msgid "Thursday "
+msgstr ""
+
+#: classes/wptu.break.php:232
+msgid "Friday"
+msgstr ""
+
+#: classes/wptu.break.php:247
+msgid "Saturday"
+msgstr ""
+
+#: classes/wptu.break.php:261
+msgid "Sunday"
+msgstr ""
+
+#: classes/wptu.break.php:329
+msgid "Delete Break"
+msgstr ""
+
+#: classes/wptu.break.php:338
+msgid "There are no breaks for this day."
+msgstr ""
+
+#: classes/wptu.class.php:660 classes/wptu.priority.php:141
+msgid "Low"
+msgstr ""
+
+#: classes/wptu.class.php:665 classes/wptu.priority.php:150
+msgid "Normal"
+msgstr ""
+
+#: classes/wptu.class.php:670 classes/wptu.priority.php:157
+msgid "High"
+msgstr ""
+
+#: classes/wptu.class.php:675 classes/wptu.priority.php:163
+msgid "Urgent"
+msgstr ""
+
+#: classes/wptu.class.php:713
+msgid "Text"
+msgstr ""
+
+#: classes/wptu.class.php:714
+msgid "Textarea"
+msgstr ""
+
+#: classes/wptu.class.php:715
+msgid "Select Dropdown"
+msgstr ""
+
+#: classes/wptu.class.php:716
+msgid "Radio"
+msgstr ""
+
+#: classes/wptu.class.php:717
+msgid "Checkbox"
+msgstr ""
+
+#: classes/wptu.class.php:718
+msgid "Date Picker"
+msgstr ""
+
+#: classes/wptu.class.php:731 classes/wptu.class.php:793
+msgid "Your Name"
+msgstr ""
+
+#: classes/wptu.class.php:740 classes/wptu.class.php:804
+#: classes/wptu.profile.php:2342
+msgid "Last Name"
+msgstr ""
+
+#: classes/wptu.class.php:748 classes/wptu.class.php:815
+#: classes/wptu.user.php:1204
+msgid "E-mail"
+msgstr ""
+
+#: classes/wptu.class.php:819
+msgid ""
+"A confirmation email will be sent to this email address. If you are already "
+"a client  please use the <strong>same email</strong> used to create your "
+"previous requests. Login information will be sent so you can check the "
+"status of your request."
+msgstr ""
+
+#: classes/wptu.class.php:863 classes/wptu.profile.php:2500
+#: classes/wptu.profile.php:2639
+msgid "Username or Email"
+msgstr ""
+
+#: classes/wptu.class.php:872 classes/wptu.profile.php:2515
+msgid "Password"
+msgstr ""
+
+#: classes/wptu.class.php:1029 classes/wptu.profile.php:83
+msgid "Done"
+msgstr ""
+
+#: classes/wptu.class.php:1030 classes/wptu.profile.php:84
+msgid "Today"
+msgstr ""
+
+#: classes/wptu.class.php:1031 classes/wptu.profile.php:85
+msgid "Prev"
+msgstr ""
+
+#: classes/wptu.class.php:1032 classes/wptu.profile.php:86
+msgid "Next"
+msgstr ""
+
+#: classes/wptu.class.php:1035 classes/wptu.profile.php:89
+msgid "Show a different month"
+msgstr ""
+
+#: classes/wptu.class.php:1072 classes/wptu.class.php:1188
+#: classes/wptu.profile.php:2291
+msgid "Sign Up"
+msgstr ""
+
+#: classes/wptu.class.php:1101 classes/wptu.class.php:1216
+#: classes/wptu.profile.php:2314 classes/wptu.register.php:875
+msgid "Your request has been sent successfully. Please check your email."
+msgstr ""
+
+#: classes/wptu.class.php:1122
+msgid "Please submit a ticket through your account."
+msgstr ""
+
+#: classes/wptu.class.php:1245 classes/wptu.priority.php:74
+#: classes/wptu.status.php:196
+msgid " * This field is required!"
+msgstr ""
+
+#: classes/wptu.class.php:1246
+msgid "Select"
+msgstr ""
+
+#: classes/wptu.class.php:1395 classes/wptu.class.php:1399
+#: classes/wptu.class.php:1422 classes/wptu.class.php:1766
+#: classes/wptu.class.php:1876 classes/wptu.class.php:1880
+#: classes/wptu.class.php:1897 classes/wptu.class.php:1907
+#: classes/wptu.class.php:1943 classes/wptu.class.php:2226
+#: classes/wptu.class.php:2307 classes/wptu.class.php:2311
+#: classes/wptu.class.php:2321 classes/wptu.class.php:2331
+#: classes/wptu.class.php:2367 classes/wptu.profile.php:2333
+#: classes/wptu.profile.php:2345 classes/wptu.profile.php:2357
+#: classes/wptu.profile.php:2373 classes/wptu.profile.php:2506
+#: classes/wptu.profile.php:2521 classes/wptu.profile.php:2654
+#: classes/wptu.profile.php:2671 classes/wptu.ticket.php:1220
+#: classes/wptu.ticket.php:1224 classes/wptu.ticket.php:1248
+msgid " * This input is required!"
+msgstr ""
+
+#: classes/wptu.class.php:1664 classes/wptu.ticket.php:1648
+msgid "Site"
+msgstr ""
+
+#: classes/wptu.class.php:1763 classes/wptu.class.php:2223
+msgid "Select a User"
+msgstr ""
+
+#: classes/wptu.class.php:1766 classes/wptu.class.php:2209
+#: classes/wptu.class.php:2226
+msgid "Input Name or Email Address"
+msgstr ""
+
+#: classes/wptu.class.php:1770 classes/wptu.class.php:2231
+msgid "Add New User"
+msgstr ""
+
+#: classes/wptu.class.php:1939 classes/wptu.class.php:2363
+msgid "Re-type your email"
+msgstr ""
+
+#: classes/wptu.class.php:2023 classes/wptu.class.php:2069
+#: classes/wptu.profile.php:2391
+msgid "Receive Daily Updates "
+msgstr ""
+
+#: classes/wptu.class.php:2074 classes/wptu.profile.php:2396
+msgid "Yes, I want to receive daily updates. "
+msgstr ""
+
+#: classes/wptu.class.php:2112 classes/wptu.class.php:2438
+#: classes/wptu.profile.php:2429 classes/wptu.profile.php:2537
+#: classes/wptu.profile.php:2688 classes/wptu.user.php:1210
+msgid "Submit"
+msgstr ""
+
+#: classes/wptu.class.php:2206
+msgid "Select a Staff Member"
+msgstr ""
+
+#: classes/wptu.class.php:2210
+msgid ""
+"Leave it blank if you want to create a ticket without an assigned staff. "
+"Only staff members will be displayed in this list."
+msgstr ""
+
+#: classes/wptu.class.php:2227
+msgid ""
+"A user is required to create a new ticket. Only users that are not staff "
+"members will be displayed in this list."
+msgstr ""
+
+#: classes/wptu.class.php:2614 classes/wptu.class.php:2863
+#: classes/wptu.profile.php:284 classes/wptu.user.php:2289
+msgid "Allowed Files"
+msgstr ""
+
+#: classes/wptu.class.php:2652 classes/wptu.class.php:2905
+msgid "Drop files here or"
+msgstr ""
+
+#: classes/wptu.class.php:2657 classes/wptu.class.php:2915
+msgid "Select Files"
+msgstr ""
+
+#: classes/wptu.class.php:2686 classes/wptu.class.php:2943
+msgid "'You may only upload one image at a time!'"
+msgstr ""
+
+#: classes/wptu.class.php:2687 classes/wptu.class.php:2944
+msgid "'The file you selected exceeds the maximum filesize limit.'"
+msgstr ""
+
+#: classes/wptu.class.php:2688 classes/wptu.class.php:2945
+msgid "Upload Completed!"
+msgstr ""
+
+#: classes/wptu.department.php:130
+msgid "Please confirm that you wish to delete this department."
+msgstr ""
+
+#: classes/wptu.department.php:133 classes/wptu.department.php:147
+#: classes/wptu.priority.php:334 classes/wptu.priority.php:348
+#: classes/wptu.site.php:254 classes/wptu.user.php:391
+#: classes/wptu.user.php:414
+msgid "CONFIRM"
+msgstr ""
+
+#: classes/wptu.department.php:138 classes/wptu.priority.php:339
+#: classes/wptu.site.php:259
+msgid "WARNING:"
+msgstr ""
+
+#: classes/wptu.department.php:138
+msgid ""
+" some tickets are using this department. You will have to assign them a new "
+"department."
+msgstr ""
+
+#: classes/wptu.department.php:141
+#, php-format
+msgid "Tickets using this department: %s."
+msgstr ""
+
+#: classes/wptu.department.php:143
+msgid "Assign to the following department: "
+msgstr ""
+
+#: classes/wptu.department.php:208
+msgid "Select Department"
+msgstr ""
+
+#: classes/wptu.department.php:706
+msgid ""
+"Here you can update the information of this department. Once you have "
+"modified the information click on the save button."
+msgstr ""
+
+#: classes/wptu.department.php:719
+msgid ""
+"Here you can create a new department. Once you have filled in the form click "
+"on the save button."
+msgstr ""
+
+#: classes/wptu.department.php:732 classes/wptu.department.php:860
+#: classes/wptu.priority.php:221 classes/wptu.priority.php:444
+msgid "Name"
+msgstr ""
+
+#: classes/wptu.department.php:734 classes/wptu.priority.php:446
+msgid "Background Color"
+msgstr ""
+
+#: classes/wptu.department.php:818 classes/wptu.site.php:144
+msgid "Name:"
+msgstr ""
+
+#: classes/wptu.department.php:820
+msgid "Last Name:"
+msgstr ""
+
+#: classes/wptu.department.php:822
+msgid "Email:"
+msgstr ""
+
+#: classes/wptu.department.php:843
+msgid "Departments"
+msgstr ""
+
+#: classes/wptu.department.php:845
+msgid "Add New Department"
+msgstr ""
+
+#: classes/wptu.department.php:858 classes/wptu.priority.php:219
+msgid "ID"
+msgstr ""
+
+#: classes/wptu.department.php:896
+msgid "There are no departments "
+msgstr ""
+
+#: classes/wptu.department.php:1033 classes/wptu.department.php:1089
+#: classes/wptu.department.php:1173
+msgid "With"
+msgstr ""
+
+#: classes/wptu.department.php:1035 classes/wptu.department.php:1124
+#: classes/wptu.department.php:1208 classes/wptu.user.php:1888
+msgid "Any"
+msgstr ""
+
+#: classes/wptu.department.php:1251
+msgid " * Please select a category!"
+msgstr ""
+
+#: classes/wptu.department.php:1275
+msgid "Select a Service"
+msgstr ""
+
+#: classes/wptu.department.php:1334
+msgid "All Day "
+msgstr ""
+
+#: classes/wptu.priority.php:75 classes/wptu.priority.php:107
+msgid "Select Priority"
+msgstr ""
+
+#: classes/wptu.priority.php:204
+msgid "Priorities"
+msgstr ""
+
+#: classes/wptu.priority.php:206
+msgid "Add New Priority"
+msgstr ""
+
+#: classes/wptu.priority.php:222 classes/wptu.priority.php:474
+msgid "First Reply Within"
+msgstr ""
+
+#: classes/wptu.priority.php:222 classes/wptu.priority.php:472
+msgid "Service Level Agreement"
+msgstr ""
+
+#: classes/wptu.priority.php:222
+msgid "(SLA)"
+msgstr ""
+
+#: classes/wptu.priority.php:224 classes/wptu.priority.php:476
+msgid "Resolved Within"
+msgstr ""
+
+#: classes/wptu.priority.php:225
+msgid "Visibility"
+msgstr ""
+
+#: classes/wptu.priority.php:241
+msgid "Public"
+msgstr ""
+
+#: classes/wptu.priority.php:245
+msgid "Private"
+msgstr ""
+
+#: classes/wptu.priority.php:275
+msgid "There are no priorities "
+msgstr ""
+
+#: classes/wptu.priority.php:302 classes/wptu.priority.php:406
+msgid ""
+"This functionality is available on premium versions only, please consider "
+"upgrading your plugin. The premium versions allow you to customize the "
+"priorities. "
+msgstr ""
+
+#: classes/wptu.priority.php:331
+msgid "Please confirm that you wish to delete this priority."
+msgstr ""
+
+#: classes/wptu.priority.php:339
+msgid ""
+" some tickets are using this priority. You will have to set a new priority."
+msgstr ""
+
+#: classes/wptu.priority.php:342
+#, php-format
+msgid "Tickets using this priority: %s."
+msgstr ""
+
+#: classes/wptu.priority.php:344
+msgid "Assign the following priority: "
+msgstr ""
+
+#: classes/wptu.priority.php:417
+msgid ""
+"Here you can update the information of this prioirty. Once you have modified "
+"the information click on the save button."
+msgstr ""
+
+#: classes/wptu.priority.php:431
+msgid ""
+"Here you can create a new priority. Once you have filled in the form click "
+"on the save button."
+msgstr ""
+
+#: classes/wptu.priority.php:449
+msgid "Is Private?"
+msgstr ""
+
+#: classes/wptu.profile.php:63
+msgid "You must make a selection first"
+msgstr ""
+
+#: classes/wptu.profile.php:71
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/wptu.profile.php:73
+msgid "Please write a message"
+msgstr ""
+
+#: classes/wptu.profile.php:312 classes/wptu.user.php:2230
+msgid "Drop "
+msgstr ""
+
+#: classes/wptu.profile.php:318 classes/wptu.user.php:2236
+msgid "Select Image"
+msgstr ""
+
+#: classes/wptu.profile.php:323 classes/wptu.user.php:2241
+msgid "Remove"
+msgstr ""
+
+#: classes/wptu.profile.php:398 classes/wptu.user.php:2346
+msgid "You may only upload one image at a time!"
+msgstr ""
+
+#: classes/wptu.profile.php:413 classes/wptu.user.php:2361
+msgid "The file you selected exceeds the maximum filesize limit."
+msgstr ""
+
+#: classes/wptu.profile.php:724 classes/wptu.user.php:2651
+msgid "Crop & Save"
+msgstr ""
+
+#: classes/wptu.profile.php:1012 classes/wptu.profile.php:2741
+msgid " ERROR! Password must be identical "
+msgstr ""
+
+#: classes/wptu.profile.php:1018 classes/wptu.profile.php:2747
+msgid " ERROR! Password should contain at least 7 alphanumeric characters "
+msgstr ""
+
+#: classes/wptu.profile.php:1039
+msgid ""
+" Success!! The new password has been changed. Please click on the login link "
+"to get in your account.  "
+msgstr ""
+
+#: classes/wptu.profile.php:1086
+msgid " Success!! Your Personal Details Were Updated  "
+msgstr ""
+
+#: classes/wptu.profile.php:1112
+msgid " ERROR! Please type your new email "
+msgstr ""
+
+#: classes/wptu.profile.php:1118
+msgid " ERROR! Please type a valid email address "
+msgstr ""
+
+#: classes/wptu.profile.php:1137
+msgid " ERROR! You haven't changed your email. "
+msgstr ""
+
+#: classes/wptu.profile.php:1146
+msgid " ERROR! The email is in use already "
+msgstr ""
+
+#: classes/wptu.profile.php:1189
+msgid " Success!! Your email account has been changed to : "
+msgstr ""
+
+#: classes/wptu.profile.php:1251
+msgid "Unread Messages"
+msgstr ""
+
+#: classes/wptu.profile.php:1346
+msgid "<strong>ERROR:</strong> Please input your First Name."
+msgstr ""
+
+#: classes/wptu.profile.php:1350
+msgid "<strong>ERROR:</strong> Please input your Last Name."
+msgstr ""
+
+#: classes/wptu.profile.php:1354 classes/wptu.user.php:782
+msgid "<strong>ERROR:</strong> Please input an email address."
+msgstr ""
+
+#: classes/wptu.profile.php:1358
+msgid "<strong>ERROR:</strong> reCaptcha validation failed."
+msgstr ""
+
+#: classes/wptu.profile.php:1365
+msgid "<strong>ERROR:</strong> The email address already exists."
+msgstr ""
+
+#: classes/wptu.profile.php:1369
+msgid "<strong>ERROR:</strong> The username already exists."
+msgstr ""
+
+#: classes/wptu.profile.php:1516 classes/wptu.profile.php:1747
+msgid "<strong>ERROR:</strong> The username field is empty."
+msgstr ""
+
+#: classes/wptu.profile.php:1524
+msgid "<strong>ERROR:</strong> The password field is empty."
+msgstr ""
+
+#: classes/wptu.profile.php:1547
+msgid "<strong>ERROR:</strong> The captcha validation is wrong."
+msgstr ""
+
+#: classes/wptu.profile.php:1568
+msgid "<strong>ERROR:</strong> Invalid Email was entered."
+msgstr ""
+
+#: classes/wptu.profile.php:1622
+msgid "<strong>ERROR:</strong> Invalid Username was entered."
+msgstr ""
+
+#: classes/wptu.profile.php:1625
+msgid "<strong>ERROR:</strong> Incorrect password was entered."
+msgstr ""
+
+#: classes/wptu.profile.php:1629
+msgid "<strong>ERROR:</strong> Please provide Password."
+msgstr ""
+
+#: classes/wptu.profile.php:1645 classes/wptu.profile.php:1814
+msgid "<strong>ERROR:</strong> Your account is not active."
+msgstr ""
+
+#: classes/wptu.profile.php:1693
+msgid " A reset link has been sent to the user. "
+msgstr ""
+
+#: classes/wptu.profile.php:1740
+msgid "<strong>ERROR:</strong> The captcha validation is wrong.."
+msgstr ""
+
+#: classes/wptu.profile.php:1769 classes/wptu.profile.php:1792
+msgid "<strong>ERROR:</strong> Invalid Email or Username."
+msgstr ""
+
+#: classes/wptu.profile.php:1854
+msgid " A reset link has been sent to your email. "
+msgstr ""
+
+#: classes/wptu.profile.php:2323
+msgid "Account Data"
+msgstr ""
+
+#: classes/wptu.profile.php:2330
+msgid "First Name"
+msgstr ""
+
+#: classes/wptu.profile.php:2333
+msgid "Type your First Name"
+msgstr ""
+
+#: classes/wptu.profile.php:2345
+msgid "Type your Last Name"
+msgstr ""
+
+#: classes/wptu.profile.php:2354 classes/wptu.user.php:465
+msgid "Username"
+msgstr ""
+
+#: classes/wptu.profile.php:2357
+msgid "Type your Username"
+msgstr ""
+
+#: classes/wptu.profile.php:2366 classes/wptu.user.php:464
+msgid "Email"
+msgstr ""
+
+#: classes/wptu.profile.php:2369
+msgid ""
+"The login information will be sent to this email address. A random password "
+"will be generated and you can change it later from your account."
+msgstr ""
+
+#: classes/wptu.profile.php:2373
+msgid "Type your Email"
+msgstr ""
+
+#: classes/wptu.profile.php:2437 classes/wptu.profile.php:2697
+msgid "Please set a login page."
+msgstr ""
+
+#: classes/wptu.profile.php:2441
+msgid "Already have an account?"
+msgstr ""
+
+#: classes/wptu.profile.php:2468
+msgid "Login"
+msgstr ""
+
+#: classes/wptu.profile.php:2494
+msgid "Login data"
+msgstr ""
+
+#: classes/wptu.profile.php:2506
+msgid "Type your Username or Email"
+msgstr ""
+
+#: classes/wptu.profile.php:2521 classes/wptu.profile.php:2654
+msgid "Type your Password"
+msgstr ""
+
+#: classes/wptu.profile.php:2545
+msgid "Please set a password reset page."
+msgstr ""
+
+#: classes/wptu.profile.php:2549
+msgid "Forgot Password?"
+msgstr ""
+
+#: classes/wptu.profile.php:2559
+msgid "Please set a registration page."
+msgstr ""
+
+#: classes/wptu.profile.php:2563
+msgid "Don't you have an account?"
+msgstr ""
+
+#: classes/wptu.profile.php:2596
+msgid "Recover Password"
+msgstr ""
+
+#: classes/wptu.profile.php:2629
+msgid "Type your new password"
+msgstr ""
+
+#: classes/wptu.profile.php:2630
+msgid "Re-Type your password"
+msgstr ""
+
+#: classes/wptu.profile.php:2644
+msgid "Recover your password"
+msgstr ""
+
+#: classes/wptu.profile.php:2671
+msgid "Type your new password again"
+msgstr ""
+
+#: classes/wptu.profile.php:2701
+msgid "Login to your account?"
+msgstr ""
+
+#: classes/wptu.profile.php:2766
+msgid ""
+" Success!! The new password has been changed. Please click on the login link "
+"to get in your account."
+msgstr ""
+
+#: classes/wptu.profile.php:2772
+msgid " ERROR! Invalid reset link "
+msgstr ""
+
+#: classes/wptu.register.php:77
+msgid "<strong>ERROR:</strong> Please enter a username."
+msgstr ""
+
+#: classes/wptu.register.php:90
+msgid "<strong>ERROR:</strong> Please type your e-mail address."
+msgstr ""
+
+#: classes/wptu.register.php:94
+msgid "<strong>ERROR:</strong> The email address isn't correct."
+msgstr ""
+
+#: classes/wptu.register.php:117
+msgid "<strong>ERROR:</strong> Please complete Captcha Test first."
+msgstr ""
+
+#: classes/wptu.site.php:71 templates/edit_ticket.php:235
+msgid "Products"
+msgstr ""
+
+#: classes/wptu.site.php:73
+msgid "Add New Product"
+msgstr ""
+
+#: classes/wptu.site.php:98
+msgid "reload all"
+msgstr ""
+
+#: classes/wptu.site.php:103
+msgid "There are no products"
+msgstr ""
+
+#: classes/wptu.site.php:150
+msgid ""
+"If you need to offer support , please consider upgrading your plugin. The "
+"lite version allows you to offer support for only one Website & Product. "
+msgstr ""
+
+#: classes/wptu.site.php:251
+msgid "Please confirm that you wish to delete this product."
+msgstr ""
+
+#: classes/wptu.site.php:259
+msgid ""
+" This product has some departments. You would need to delete all the "
+"product's departments first."
+msgstr ""
+
+#: classes/wptu.status.php:96 classes/wptu.status.php:97
+msgid "New"
+msgstr ""
+
+#: classes/wptu.status.php:128 classes/wptu.status.php:129
+msgid "Solved"
+msgstr ""
+
+#: classes/wptu.status.php:135 classes/wptu.status.php:136
+msgid "Closed"
+msgstr ""
+
+#: classes/wptu.status.php:197 classes/wptu.status.php:229
+msgid "Select Status"
+msgstr ""
+
+#: classes/wptu.ticket.php:267
+msgid "The ticket(s) were permanently deleted."
+msgstr ""
+
+#: classes/wptu.ticket.php:271
+msgid "You have to select at least one ticket"
+msgstr ""
+
+#: classes/wptu.ticket.php:399
+msgid "The reply has been posted successfully."
+msgstr ""
+
+#: classes/wptu.ticket.php:412
+msgid "second"
+msgstr ""
+
+#: classes/wptu.ticket.php:413
+msgid "minute"
+msgstr ""
+
+#: classes/wptu.ticket.php:414
+msgid "hour"
+msgstr ""
+
+#: classes/wptu.ticket.php:415
+msgid "day"
+msgstr ""
+
+#: classes/wptu.ticket.php:416
+msgid "week"
+msgstr ""
+
+#: classes/wptu.ticket.php:417
+msgid "month"
+msgstr ""
+
+#: classes/wptu.ticket.php:418
+msgid "year"
+msgstr ""
+
+#: classes/wptu.ticket.php:419
+msgid "decade"
+msgstr ""
+
+#: classes/wptu.ticket.php:436
+msgid "ago"
+msgstr ""
+
+#: classes/wptu.ticket.php:440
+msgid "from now"
+msgstr ""
+
+#: classes/wptu.ticket.php:734
+msgid "User"
+msgstr ""
+
+#: classes/wptu.ticket.php:775
+msgid "Posted on: "
+msgstr ""
+
+#: classes/wptu.ticket.php:828
+msgid "Attached Files "
+msgstr ""
+
+#: classes/wptu.ticket.php:1089
+msgid "Delete File"
+msgstr ""
+
+#: classes/wptu.ticket.php:1387
+msgid "UPDATE"
+msgstr ""
+
+#: classes/wptu.ticket.php:1436
+msgid "Done! "
+msgstr ""
+
+#: classes/wptu.ticket.php:1736
+msgid "There are no tickets ."
+msgstr ""
+
+#: classes/wptu.type.php:55
+msgid "Issue"
+msgstr ""
+
+#: classes/wptu.user.php:82
+msgid ""
+"This screen allows you to change the priority of this ticket. Just select "
+"the new priority and click on the submit button. "
+msgstr ""
+
+#: classes/wptu.user.php:84
+msgid "New Priority:"
+msgstr ""
+
+#: classes/wptu.user.php:112
+msgid ""
+"This screen allows you to change the status of this ticket. Just select the "
+"new status and click on the submit button. "
+msgstr ""
+
+#: classes/wptu.user.php:114
+msgid "New Status:"
+msgstr ""
+
+#: classes/wptu.user.php:125
+msgid "Yes, notify user about this change."
+msgstr ""
+
+#: classes/wptu.user.php:242
+msgid "Select the new owner of this ticket.  "
+msgstr ""
+
+#: classes/wptu.user.php:279 classes/wptu.user.php:2107
+msgid "There are no staff members."
+msgstr ""
+
+#: classes/wptu.user.php:289
+msgid ""
+"If you need to manage more than one staff member, please consider upgrading "
+"your plugin. The lite version allows you to manage only one staff member. "
+msgstr ""
+
+#: classes/wptu.user.php:387
+msgid "The Ticket # "
+msgstr ""
+
+#: classes/wptu.user.php:387
+msgid " will be assigned to the selected staff member. "
+msgstr ""
+
+#: classes/wptu.user.php:391 classes/wptu.user.php:414
+msgid "CANCEL"
+msgstr ""
+
+#: classes/wptu.user.php:398
+msgid "This staff member member doesn't belong to the ticket's department. "
+msgstr ""
+
+#: classes/wptu.user.php:404
+msgid "Add Staff member to the ticket's deparment?"
+msgstr ""
+
+#: classes/wptu.user.php:406
+msgid "Share this ticket with the the selected staff member?"
+msgstr ""
+
+#: classes/wptu.user.php:452
+msgid ""
+"Here you can add new staff members. Please feel in with the full name and "
+"email then click on the Add button."
+msgstr ""
+
+#: classes/wptu.user.php:462 classes/wptu.user.php:1194
+msgid "Full Name"
+msgstr ""
+
+#: classes/wptu.user.php:470
+msgid ""
+"If you need to add more than one staff member, please consider upgrading "
+"your plugin. The lite version allows you to have only one Staff Member. "
+msgstr ""
+
+#: classes/wptu.user.php:634
+msgid ""
+"<strong>ERROR:</strong> This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: classes/wptu.user.php:638
+msgid "<strong>ERROR:</strong> All fields are mandatory."
+msgstr ""
+
+#: classes/wptu.user.php:723
+msgid "This email is already registered. Please choose another one."
+msgstr ""
+
+#: classes/wptu.user.php:728
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: classes/wptu.user.php:732
+msgid "All fields are mandatory."
+msgstr ""
+
+#: classes/wptu.user.php:787
+msgid "<strong>ERROR:</strong> Pleaes input a Full Name."
+msgstr ""
+
+#: classes/wptu.user.php:795
+msgid ""
+"<strong>ERROR:</strong> This email is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: classes/wptu.user.php:818
+msgid "<strong>Done!</strong>"
+msgstr ""
+
+#: classes/wptu.user.php:920
+msgid "Backend Access?"
+msgstr ""
+
+#: classes/wptu.user.php:926
+msgid "Bugs & Issues Access?"
+msgstr ""
+
+#: classes/wptu.user.php:934
+msgid "WooCommerce Orders?"
+msgstr ""
+
+#: classes/wptu.user.php:942
+msgid "Can Update Picture?"
+msgstr ""
+
+#: classes/wptu.user.php:952
+msgid "Role"
+msgstr ""
+
+#: classes/wptu.user.php:961
+msgid "Save Settings"
+msgstr ""
+
+#: classes/wptu.user.php:965
+msgid ""
+"You can use the following button to send a password reset link to this staff "
+"member. The reset will allow the staff meber to login and manage their "
+"appointments"
+msgstr ""
+
+#: classes/wptu.user.php:968
+msgid "Send Password Reset Link"
+msgstr ""
+
+#: classes/wptu.user.php:976
+msgid ""
+"You haven't set a password reset page, this is very imporant. Click on Staff "
+"& Client Account link and set a page for the reset password shortcode. "
+msgstr ""
+
+#: classes/wptu.user.php:1072
+msgid "Details"
+msgstr ""
+
+#: classes/wptu.user.php:1087
+msgid "Account & Backend"
+msgstr ""
+
+#: classes/wptu.user.php:1114
+msgid "Bugs & Issues Permissions"
+msgstr ""
+
+#: classes/wptu.user.php:1129
+msgid ""
+"Please consider upgrading your plugin if you need to manage bugs & issues."
+msgstr ""
+
+#: classes/wptu.user.php:1186
+msgid "Update Pic"
+msgstr ""
+
+#: classes/wptu.user.php:1195
+msgid "Your Full Name"
+msgstr ""
+
+#: classes/wptu.user.php:1199
+msgid "Phone"
+msgstr ""
+
+#: classes/wptu.user.php:1200
+msgid "Your Phone Number"
+msgstr ""
+
+#: classes/wptu.user.php:1205
+msgid "Your Email"
+msgstr ""
+
+#: classes/wptu.user.php:1246 classes/wptu.user.php:1260
+msgid "Please set client ID and client Secret!"
+msgstr ""
+
+#: classes/wptu.user.php:1265
+msgid "Select Your Calendar:"
+msgstr ""
+
+#: classes/wptu.user.php:1268
+msgid "SET CALENDAR"
+msgstr ""
+
+#: classes/wptu.user.php:1275
+msgid "IMPORTANT: You haven't set a calendar, yet."
+msgstr ""
+
+#: classes/wptu.user.php:1277
+msgid ""
+"If you don't set a calendar the primary calendar will be used by default. "
+msgstr ""
+
+#: classes/wptu.user.php:1281
+msgid ""
+"If you don't see your new calendars, plase disconnect and connect again. "
+msgstr ""
+
+#: classes/wptu.user.php:1306
+msgid "Your calendar has been set! "
+msgstr ""
+
+#: classes/wptu.user.php:1338
+msgid "If the calendars list is empty, please disconnect and connect again. "
+msgstr ""
+
+#: classes/wptu.user.php:1760
+msgid "All Staff Members"
+msgstr ""
+
+#: classes/wptu.user.php:1815
+msgid "Select User"
+msgstr ""
+
+#: classes/wptu.user.php:2004
+msgid " Previous"
+msgstr ""
+
+#: classes/wptu.user.php:2005
+msgid "Next "
+msgstr ""
+
+#: classes/wptu.user.php:3080
+msgid " - Staff"
+msgstr ""
+
+#: classes/wptu.user.php:3107 classes/wptu.user.php:3120
+msgid "No results found"
+msgstr ""
+
+#: templates/create_ticket.php:19
+msgid "Please login to your account to create a new ticket."
+msgstr ""
+
+#: templates/create_ticket.php:32 templates/dashboard.php:60
+#: templates/dashboard.php:72 templates/edit_ticket.php:15
+msgid "Oops! You don't have permission to access to this section"
+msgstr ""
+
+#: templates/dashboard.php:155
+msgid ""
+"It's the weekend!. We Work From Monday To Friday From 8AM To 5PM. Since "
+"we're on weekend a reply should be received on either Monday or Tuesday. "
+"Thank you very much for your understanding."
+msgstr ""
+
+#: templates/dashboard.php:206 templates/dashboard.php:207
+msgid "Need Reply"
+msgstr ""
+
+#: templates/dashboard.php:242 templates/dashboard.php:243
+msgid "Shared"
+msgstr ""
+
+#: templates/dashboard.php:414
+msgid "Send To Trash"
+msgstr ""
+
+#: templates/dashboard.php:440 templates/dashboard.php:1375
+#: templates/dashboard.php:1669
+msgid "Last-replier"
+msgstr ""
+
+#: templates/dashboard.php:451
+msgid "Your Latest Tickets"
+msgstr ""
+
+#: templates/dashboard.php:720
+msgid "Waiting For Your Reply"
+msgstr ""
+
+#: templates/dashboard.php:856
+msgid "Requests On-hold"
+msgstr ""
+
+#: templates/dashboard.php:963
+msgid "There are no tickets on-hold."
+msgstr ""
+
+#: templates/dashboard.php:1242
+msgid "Personal Details"
+msgstr ""
+
+#: templates/dashboard.php:1252
+msgid "Your Display Name"
+msgstr ""
+
+#: templates/dashboard.php:1255
+msgid "Your Address"
+msgstr ""
+
+#: templates/dashboard.php:1258
+msgid "Your City"
+msgstr ""
+
+#: templates/dashboard.php:1261
+msgid "Your Country"
+msgstr ""
+
+#: templates/dashboard.php:1264
+msgid "Summary"
+msgstr ""
+
+#: templates/dashboard.php:1267
+msgid "Description"
+msgstr ""
+
+#: templates/dashboard.php:1274
+msgid "UPDATE INFORMATION"
+msgstr ""
+
+#: templates/dashboard.php:1288
+msgid "Update your Password"
+msgstr ""
+
+#: templates/dashboard.php:1294
+msgid "Type your New Password"
+msgstr ""
+
+#: templates/dashboard.php:1297
+msgid "Re-type your New Password"
+msgstr ""
+
+#: templates/dashboard.php:1302
+msgid "RESET PASSWORD"
+msgstr ""
+
+#: templates/dashboard.php:1312
+msgid "Update Your Email"
+msgstr ""
+
+#: templates/dashboard.php:1317
+msgid "Type your New Email"
+msgstr ""
+
+#: templates/dashboard.php:1322
+msgid "CHANGE EMAIL"
+msgstr ""
+
+#: templates/dashboard.php:1376 templates/dashboard.php:1670
+msgid "All My Tickets"
+msgstr ""
+
+#: templates/dashboard.php:1389
+msgid "All My Shared Tickets"
+msgstr ""
+
+#: templates/dashboard.php:1616
+msgid "There are no shared tickets."
+msgstr ""
+
+#: templates/dashboard.php:1968
+msgid "Appointment Status"
+msgstr ""
+
+#: templates/dashboard.php:1969
+msgid "Add Payment"
+msgstr ""
+
+#: templates/dashboard.php:1970
+msgid "Add Note"
+msgstr ""
+
+#: templates/edit_ticket.php:28
+msgid "Oops! This is not your ticket."
+msgstr ""
+
+#: templates/edit_ticket.php:41
+msgid "Oops! You're not allowed to see this ticket."
+msgstr ""
+
+#: templates/edit_ticket.php:383
+msgid "View Note"
+msgstr ""

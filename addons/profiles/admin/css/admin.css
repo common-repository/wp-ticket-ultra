@@ -1,0 +1,24 @@
+/*Admin - Main*/
+
+
+#loading-animation{display:none}
+#wptu-sync-results{display:none}
+
+#wptu-validation-results{display:none}
+.wptu-ultra-sect h3{ margin-left:0px}
+.wptu-ultra-sect h3{ font-size:20px;}
+
+.wptu-ultra-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+/*users module*/
+.wptu-users-membership-edition {  margin:10px 0px 10px 0px; padding-left:15px;}
+
+/**/
+
+
+.wptu-top-noti-admin {  margin:10px 0px 10px 0px}
+
+.wptu-frame-impo{ background:#F2F2F2}
+
+.wptu-ultra-rounded {-moz-border-radius: 5px; border-radius:5px;}
+.wptu-ultra-sect { background:#FFF; position:relative; clear:both; width:98%; margin-top:20px; padding:20px 10px 10px 10px; height:auto !important}
